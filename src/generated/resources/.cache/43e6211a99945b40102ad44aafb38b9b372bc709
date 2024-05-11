@@ -1,0 +1,7 @@
+// 1.20.1	2024-05-11T21:17:37.586826	Tags for minecraft:block mod id lolomobs
+ab27b395ec13c4c2020b718b2f36b7b8f3c9394a data/forge/tags/blocks/needs_netherite_tool.json
+3eaf5c6eaeb3f6032c6d08bf645968761c88322d data/lolomobs/tags/blocks/metal_detector_valuables.json
+f2242c2faec92ac800be976581815c70cd34f00a data/minecraft/tags/blocks/mineable/pickaxe.json
+3f2ecd161cca76bf97d57d8ecfd6bd5402bce5cb data/minecraft/tags/blocks/needs_diamond_tool.json
+45b795e2fd486b998f1e2830b51c5045fb0e52d7 data/minecraft/tags/blocks/needs_iron_tool.json
+7a3e80ac83d1da58c701e52503667948cf06bb6f data/minecraft/tags/blocks/needs_stone_tool.json
