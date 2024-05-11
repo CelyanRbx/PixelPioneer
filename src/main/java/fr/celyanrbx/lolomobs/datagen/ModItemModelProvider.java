@@ -4,7 +4,7 @@ import fr.celyanrbx.lolomobs.LoloMobs;
 import fr.celyanrbx.lolomobs.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -23,11 +23,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModItems.METAL_DETECTOR);
         simpleBlockItem(ModItems.PINE_CONE);
         simpleBlockItem(ModItems.STRAWBERRY);
-
     }
 
 
-    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
+    private ItemModelBuilder simpleBlockItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(LoloMobs.MOD_ID,"item/" + item.getId().getPath()));
