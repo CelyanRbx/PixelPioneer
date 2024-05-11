@@ -1,6 +1,7 @@
-// 1.20.1	2024-05-11T22:40:27.7475423	Tags for minecraft:block mod id lolomobs
+// 1.20.1	2024-05-12T00:25:47.4141148	Tags for minecraft:block mod id lolomobs
 ab27b395ec13c4c2020b718b2f36b7b8f3c9394a data/forge/tags/blocks/needs_netherite_tool.json
 3eaf5c6eaeb3f6032c6d08bf645968761c88322d data/lolomobs/tags/blocks/metal_detector_valuables.json
+284ded507fe3d030d10341b36709e1bd1d29175c data/lolomobs/tags/blocks/needs_sapphire_tool.json
 3c9244b0cd66595b56fac534586c2a506d43ede3 data/minecraft/tags/blocks/fences.json
 d93f8a3a38c4a29270a9104205f9395a73e911b8 data/minecraft/tags/blocks/fence_gates.json
 f2242c2faec92ac800be976581815c70cd34f00a data/minecraft/tags/blocks/mineable/pickaxe.json
