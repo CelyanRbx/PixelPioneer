@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lolomobs:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "lolomobs:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "lolomobs:block/sapphire_slab_top"
+    }
+  }
+}

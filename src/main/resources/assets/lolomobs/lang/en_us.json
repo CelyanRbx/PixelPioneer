@@ -16,6 +16,16 @@
 
   "block.lolomobs.sound_block": "Sound Block",
 
+  "block.lolomobs.sapphire_stairs": "Sapphire Stairs",
+  "block.lolomobs.sapphire_slab": "Sapphire Slab",
+  "block.lolomobs.sapphire_button": "Sapphire Button",
+  "block.lolomobs.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.lolomobs.sapphire_fence": "Sapphire Fence",
+  "block.lolomobs.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.lolomobs.sapphire_wall": "Sapphire Wall",
+  "block.lolomobs.sapphire_door": "Sapphire Door",
+  "block.lolomobs.sapphire_trapdoor": "Sapphire Trapdoor",
+
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "creativetab": "Sapphire LoloMobs Tab"

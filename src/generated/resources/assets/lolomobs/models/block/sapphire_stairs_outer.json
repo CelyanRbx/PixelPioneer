@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "lolomobs:block/sapphire_block",
+    "side": "lolomobs:block/sapphire_block",
+    "top": "lolomobs:block/sapphire_block"
+  }
+}
