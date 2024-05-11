@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lolomobs:raw_sapphire"
+    }
+  },
+  "result": {
+    "item": "lolomobs:raw_sapphire_block"
+  }
+}

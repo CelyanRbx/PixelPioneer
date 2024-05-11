@@ -1,0 +1,22 @@
+{
+  "item.lolomobs.sapphire": "Sapphire",
+  "item.lolomobs.raw_sapphire": "Raw Sapphire",
+
+  "item.lolomobs.metal_detector": "Metal Detector",
+  "item.lolomobs.strawberry": "Strawberry",
+  "item.lolomobs.pine_cone": "Pine Cone",
+
+  "block.lolomobs.sapphire_block": "Block Of Sapphire",
+  "block.lolomobs.raw_sapphire_block": "Block Of Raw Sapphire",
+
+  "block.lolomobs.sapphire_ore": "Sapphire Ore",
+  "block.lolomobs.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.lolomobs.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.lolomobs.nether_sapphire_ore": "Nether Sapphire Ore",
+
+  "block.lolomobs.sound_block": "Sound Block",
+
+  "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
+
+  "creativetab": "Sapphire LoloMobs Tab"
+}
