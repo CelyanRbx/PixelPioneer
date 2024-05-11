@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-11T22:40:27.7566769	Item Models: lolomobs
+// 1.20.1	2024-05-11T22:58:51.4516744	Item Models: lolomobs
 de872bf8e0607e1c0c3a84d688faf24484ed9651 assets/lolomobs/models/item/metal_detector.json
 2ffcad877564146c5f15ded508dfe47689f7ba84 assets/lolomobs/models/item/pine_cone.json
 2cc70ff40d66e62214d3c2faab636674255c0c97 assets/lolomobs/models/item/raw_sapphire.json
@@ -6,5 +6,10 @@ a04625af2a23695a86246928bdb1cf7a28166a84 assets/lolomobs/models/item/sapphire.js
 9c673206a6801a8fa3a3aac65308263443f5bf0a assets/lolomobs/models/item/sapphire_button.json
 30ff69b7ff3f07da08b2c4164fc3916f2ad239e4 assets/lolomobs/models/item/sapphire_door.json
 f382f9a708cd930ab580c59749be7094ef163eab assets/lolomobs/models/item/sapphire_fence.json
+9b00843aefb690f0501b49dcf913a6ee86f72b87 assets/lolomobs/models/item/sapphire_fence_gate.json
+f830c355a1332fb5d72805a35968c4a9ffdd23b8 assets/lolomobs/models/item/sapphire_pressure_plate.json
+9408c86932b317a170ea559b8f8e56c8ac986980 assets/lolomobs/models/item/sapphire_slab.json
+2f28f0a71d9067f13b4626d16d51b41b5d9d1626 assets/lolomobs/models/item/sapphire_stairs.json
+3205ad9c2af7084ae404d4ab1ad3743567000495 assets/lolomobs/models/item/sapphire_trapdoor.json
 4abf91c65a4e390155a3310a5700c2c50d9b5839 assets/lolomobs/models/item/sapphire_wall.json
 fe77df32d17c1a31146c7e1f2926bb9aeac8aa84 assets/lolomobs/models/item/strawberry.json
