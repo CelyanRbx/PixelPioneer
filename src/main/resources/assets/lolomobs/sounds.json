@@ -26,7 +26,7 @@
   "sound_block_hit": {
     "subtitle": "sounds.lolomobs.sound_block_hit",
     "sounds": [
-      "lolomobs,:sound_block_hit"
+      "lolomobs:sound_block_hit"
     ]
   },
   "sound_block_fall": {
