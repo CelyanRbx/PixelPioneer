@@ -80,8 +80,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
 
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
+
+        withExistingParent(ModItems.RHINO_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
+    // Shoutout to El_Redstoniano for making this
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = LoloMobs.MOD_ID; // Change this to your mod id
 
@@ -171,6 +174,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(LoloMobs.MOD_ID,"item/" + item.getId().getPath()));
     }
+
     private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",

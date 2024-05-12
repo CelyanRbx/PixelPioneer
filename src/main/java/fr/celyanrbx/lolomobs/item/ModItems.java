@@ -2,11 +2,13 @@ package fr.celyanrbx.lolomobs.item;
 
 import fr.celyanrbx.lolomobs.LoloMobs;
 import fr.celyanrbx.lolomobs.block.ModBlocks;
+import fr.celyanrbx.lolomobs.entity.ModEntities;
 import fr.celyanrbx.lolomobs.item.custom.FuelItem;
 import fr.celyanrbx.lolomobs.item.custom.MetalDetectorItem;
 import fr.celyanrbx.lolomobs.item.custom.ModArmorItem;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -33,6 +35,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             () -> new FuelItem(new Item.Properties(), 400));
+
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, 4, 2, new Item.Properties()));
@@ -65,7 +68,8 @@ public class ModItems {
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
             () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
 
-
+    public static final RegistryObject<Item> RHINO_SPANW_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
