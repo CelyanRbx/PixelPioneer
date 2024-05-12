@@ -47,5 +47,7 @@
 
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
+  "entity.minecraft.villager.lolomobs.soundmaster": "Sound Master",
+
   "creativetab": "Sapphire LoloMobs Tab"
 }
