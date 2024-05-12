@@ -66,6 +66,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.SAPPHIRE_DOOR.get());
                         output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
 
+                        output.accept(ModBlocks.CATMINT.get());
+
 
                     })
                     .build());
