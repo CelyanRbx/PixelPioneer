@@ -24,8 +24,6 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
-                        pOutput.accept(Items.DIAMOND);
-
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());

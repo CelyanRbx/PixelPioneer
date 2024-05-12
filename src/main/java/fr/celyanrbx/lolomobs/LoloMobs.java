@@ -8,6 +8,7 @@ import fr.celyanrbx.lolomobs.entity.client.RhinoRenderer;
 import fr.celyanrbx.lolomobs.item.ModCreativeModTabs;
 import fr.celyanrbx.lolomobs.item.ModItems;
 import fr.celyanrbx.lolomobs.loot.ModLootModifiers;
+import fr.celyanrbx.lolomobs.recipe.ModRecipes;
 import fr.celyanrbx.lolomobs.screen.GemPolishingStationScreen;
 import fr.celyanrbx.lolomobs.screen.ModMenuTypes;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
@@ -53,6 +54,8 @@ public class LoloMobs {
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
