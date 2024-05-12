@@ -1,6 +1,7 @@
 package fr.celyanrbx.lolomobs.block;
 
 import fr.celyanrbx.lolomobs.LoloMobs;
+import fr.celyanrbx.lolomobs.block.custom.CornCropBlock;
 import fr.celyanrbx.lolomobs.block.custom.SoundBlock;
 import fr.celyanrbx.lolomobs.block.custom.StrawberryCropBlock;
 import fr.celyanrbx.lolomobs.item.ModItems;
@@ -70,6 +71,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> CORN_CROP = BLOCKS.register("corn_crop",
+            () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
 
