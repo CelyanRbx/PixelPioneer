@@ -1,0 +1,12 @@
+{
+  "type": "lolomobs:gem_polishing",
+  "ingredients": [
+    {
+      "item": "lolomobs:raw_sapphire"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "lolomobs:sapphire"
+  }
+}
