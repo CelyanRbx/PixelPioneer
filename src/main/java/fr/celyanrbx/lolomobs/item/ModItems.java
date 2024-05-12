@@ -4,7 +4,7 @@ import fr.celyanrbx.lolomobs.LoloMobs;
 import fr.celyanrbx.lolomobs.item.custom.FuelItem;
 import fr.celyanrbx.lolomobs.item.custom.MetalDetectorItem;
 import fr.celyanrbx.lolomobs.item.custom.ModArmorItem;
-import net.minecraft.world.item.*
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
