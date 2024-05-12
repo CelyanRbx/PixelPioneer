@@ -2,13 +2,17 @@ package fr.celyanrbx.lolomobs;
 
 import com.mojang.logging.LogUtils;
 import fr.celyanrbx.lolomobs.block.ModBlocks;
+import fr.celyanrbx.lolomobs.block.entity.ModBlockEntities;
 import fr.celyanrbx.lolomobs.entity.ModEntities;
 import fr.celyanrbx.lolomobs.entity.client.RhinoRenderer;
 import fr.celyanrbx.lolomobs.item.ModCreativeModTabs;
 import fr.celyanrbx.lolomobs.item.ModItems;
 import fr.celyanrbx.lolomobs.loot.ModLootModifiers;
+import fr.celyanrbx.lolomobs.screen.GemPolishingStationScreen;
+import fr.celyanrbx.lolomobs.screen.ModMenuTypes;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
 import fr.celyanrbx.lolomobs.villager.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -47,6 +51,9 @@ public class LoloMobs {
         ModSounds.register(modEventBus);
         ModEntities.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -80,6 +87,8 @@ public class LoloMobs {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
-        }
+
+        MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
     }
+}
 }

@@ -15,65 +15,68 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LoloMobs.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> LOLOMOBS_TAB = CREATIVE_MODE_TABS.register("lolomobs_tab",
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("lolomobs_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("LoloMobs"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.SAPPHIRE.get());
-                        output.accept(ModItems.RAW_SAPPHIRE.get());
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
 
-                        output.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
-                        output.accept(ModItems.STRAWBERRY.get());
-                        output.accept(ModItems.PINE_CONE.get());
-                        output.accept(ModItems.SAPPHIRE_STAFF.get());
+                        pOutput.accept(Items.DIAMOND);
 
-                        output.accept(ModItems.SAPPHIRE_SWORD.get());
-                        output.accept(ModItems.SAPPHIRE_PICKAXE.get());
-                        output.accept(ModItems.SAPPHIRE_AXE.get());
-                        output.accept(ModItems.SAPPHIRE_SHOVEL.get());
-                        output.accept(ModItems.SAPPHIRE_HOE.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.PINE_CONE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
 
-                        output.accept(ModItems.SAPPHIRE_HELMET.get());
-                        output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
-                        output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
-                        output.accept(ModItems.SAPPHIRE_BOOTS.get());
+                        pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                        pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_AXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        pOutput.accept(ModItems.SAPPHIRE_HOE.get());
 
-                        output.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
+                        pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
 
-                        output.accept(ModItems.CORN.get());
-                        output.accept(ModItems.CORN_SEEDS.get());
+                        pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
 
-                        output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
-                        output.accept(ModItems.RHINO_SPANW_EGG.get());
+                        pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.CORN_SEEDS.get());
 
-                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+                        pOutput.accept(ModItems.RHINO_SPANW_EGG.get());
 
-                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
-                        output.accept(ModBlocks.SOUND_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
 
-                        output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
-                        output.accept(ModBlocks.SAPPHIRE_SLAB.get());
-                        output.accept(ModBlocks.SAPPHIRE_BUTTON.get());
-                        output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
-                        output.accept(ModBlocks.SAPPHIRE_FENCE.get());
-                        output.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
-                        output.accept(ModBlocks.SAPPHIRE_WALL.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
 
-                        output.accept(ModBlocks.SAPPHIRE_DOOR.get());
-                        output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
 
-                        output.accept(ModBlocks.CATMINT.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
 
+                        pOutput.accept(ModBlocks.CATMINT.get());
+                        pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
 
                     })
                     .build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
