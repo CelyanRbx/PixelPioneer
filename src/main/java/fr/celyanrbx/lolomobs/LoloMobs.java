@@ -5,6 +5,8 @@ import fr.celyanrbx.lolomobs.block.ModBlocks;
 import fr.celyanrbx.lolomobs.item.ModCreativeModTabs;
 import fr.celyanrbx.lolomobs.item.ModItems;
 import fr.celyanrbx.lolomobs.loot.ModLootModifiers;
+import fr.celyanrbx.lolomobs.sound.ModSounds;
+import fr.celyanrbx.lolomobs.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -37,6 +39,9 @@ public class LoloMobs {
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

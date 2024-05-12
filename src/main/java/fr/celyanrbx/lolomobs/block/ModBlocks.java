@@ -5,6 +5,7 @@ import fr.celyanrbx.lolomobs.block.custom.CornCropBlock;
 import fr.celyanrbx.lolomobs.block.custom.SoundBlock;
 import fr.celyanrbx.lolomobs.block.custom.StrawberryCropBlock;
 import fr.celyanrbx.lolomobs.item.ModItems;
+import fr.celyanrbx.lolomobs.sound.ModSounds;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
@@ -43,7 +44,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock( "sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),
