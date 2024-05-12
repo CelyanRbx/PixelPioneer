@@ -50,6 +50,8 @@
 
   "block.lolomobs.catmint": "Catmint",
 
+  "block.lolomobs.gem_polishing_station": "Gem Polishing Station",
+
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.lolomobs.soundmaster": "Sound Master",
