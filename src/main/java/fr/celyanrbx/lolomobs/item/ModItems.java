@@ -1,6 +1,7 @@
 package fr.celyanrbx.lolomobs.item;
 
 import fr.celyanrbx.lolomobs.LoloMobs;
+import fr.celyanrbx.lolomobs.block.ModBlocks;
 import fr.celyanrbx.lolomobs.item.custom.FuelItem;
 import fr.celyanrbx.lolomobs.item.custom.MetalDetectorItem;
 import fr.celyanrbx.lolomobs.item.custom.ModArmorItem;
@@ -51,6 +52,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
 
 
