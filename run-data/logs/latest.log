@@ -1,31 +1,31 @@
-[12mai2024 05:50:39.128] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, lolomobs, --all, --output, C:\Users\lcool\Downloads\LoloMobs\src\generated\resources, --existing, C:\Users\lcool\Downloads\LoloMobs\src\main\resources]
-[12mai2024 05:50:39.140] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[12mai2024 05:50:39.443] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[12mai2024 05:50:39.535] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lcool/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[12mai2024 05:50:40.163] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[12mai2024 05:50:40.170] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[12mai2024 05:50:40.175] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[12mai2024 05:50:40.181] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[12mai2024 05:50:40.367] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12mai2024 05:50:43.409] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, lolomobs, --all, --output, C:\Users\lcool\Downloads\LoloMobs\src\generated\resources, --existing, C:\Users\lcool\Downloads\LoloMobs\src\main\resources]
-[12mai2024 05:50:44.611] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [lolomobs]
-[12mai2024 05:50:53.639] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[12mai2024 05:50:53.650] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[12mai2024 05:50:54.616] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[12mai2024 05:50:54.618] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[12mai2024 05:50:55.156] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[12mai2024 05:50:55.344] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 187 ms
-[12mai2024 05:50:55.344] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[12mai2024 05:50:55.496] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 151 ms
-[12mai2024 05:50:55.496] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: lolomobs
-[12mai2024 05:50:55.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: lolomobs finished after 359 ms
-[12mai2024 05:50:55.857] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: lolomobs
-[12mai2024 05:50:55.952] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: lolomobs finished after 94 ms
-[12mai2024 05:50:55.952] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id lolomobs
-[12mai2024 05:50:55.968] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id lolomobs finished after 16 ms
-[12mai2024 05:50:55.968] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id lolomobs
-[12mai2024 05:50:55.971] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id lolomobs finished after 2 ms
-[12mai2024 05:50:55.971] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : lolomobs
-[12mai2024 05:50:55.982] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : lolomobs finished after 10 ms
-[12mai2024 05:50:55.982] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 827 ms
-[12mai2024 05:50:56.021] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 208, old count: 200, new count: 209, removed stale: 0, written: 9
+[12mai2024 06:03:58.589] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, lolomobs, --all, --output, C:\Users\lcool\Downloads\LoloMobs\src\generated\resources, --existing, C:\Users\lcool\Downloads\LoloMobs\src\main\resources]
+[12mai2024 06:03:58.607] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12mai2024 06:03:58.946] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[12mai2024 06:03:59.088] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lcool/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[12mai2024 06:03:59.882] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12mai2024 06:03:59.888] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12mai2024 06:03:59.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12mai2024 06:03:59.899] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[12mai2024 06:04:00.067] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12mai2024 06:04:03.102] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, lolomobs, --all, --output, C:\Users\lcool\Downloads\LoloMobs\src\generated\resources, --existing, C:\Users\lcool\Downloads\LoloMobs\src\main\resources]
+[12mai2024 06:04:04.504] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [lolomobs]
+[12mai2024 06:04:13.813] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[12mai2024 06:04:13.821] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[12mai2024 06:04:14.865] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[12mai2024 06:04:14.867] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[12mai2024 06:04:15.585] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12mai2024 06:04:15.745] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 158 ms
+[12mai2024 06:04:15.746] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[12mai2024 06:04:15.920] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 173 ms
+[12mai2024 06:04:15.920] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: lolomobs
+[12mai2024 06:04:16.351] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: lolomobs finished after 431 ms
+[12mai2024 06:04:16.352] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: lolomobs
+[12mai2024 06:04:16.459] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: lolomobs finished after 106 ms
+[12mai2024 06:04:16.460] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id lolomobs
+[12mai2024 06:04:16.476] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id lolomobs finished after 16 ms
+[12mai2024 06:04:16.476] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id lolomobs
+[12mai2024 06:04:16.479] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id lolomobs finished after 2 ms
+[12mai2024 06:04:16.479] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : lolomobs
+[12mai2024 06:04:16.487] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : lolomobs finished after 7 ms
+[12mai2024 06:04:16.487] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 904 ms
+[12mai2024 06:04:16.516] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 208, old count: 209, new count: 209, removed stale: 0, written: 0
