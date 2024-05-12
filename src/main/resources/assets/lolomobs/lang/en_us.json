@@ -43,6 +43,8 @@
   "block.lolomobs.sapphire_door": "Sapphire Door",
   "block.lolomobs.sapphire_trapdoor": "Sapphire Trapdoor",
 
+  "block.lolomobs.catmint": "Catmint",
+
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "creativetab": "Sapphire LoloMobs Tab"
