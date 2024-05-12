@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-12T01:21:52.41304	Item Models: lolomobs
+// 1.20.1	2024-05-12T04:36:36.4669368	Item Models: lolomobs
 de872bf8e0607e1c0c3a84d688faf24484ed9651 assets/lolomobs/models/item/metal_detector.json
 2ffcad877564146c5f15ded508dfe47689f7ba84 assets/lolomobs/models/item/pine_cone.json
 2cc70ff40d66e62214d3c2faab636674255c0c97 assets/lolomobs/models/item/raw_sapphire.json
@@ -62,3 +62,4 @@ ee4f42f3dd25f7af7747cd4b7104596d7aca0d18 assets/lolomobs/models/item/sapphire_sh
 3205ad9c2af7084ae404d4ab1ad3743567000495 assets/lolomobs/models/item/sapphire_trapdoor.json
 4abf91c65a4e390155a3310a5700c2c50d9b5839 assets/lolomobs/models/item/sapphire_wall.json
 fe77df32d17c1a31146c7e1f2926bb9aeac8aa84 assets/lolomobs/models/item/strawberry.json
+4388e19991a989be2c0cb6eb8a977f9b70e7be14 assets/lolomobs/models/item/strawberry_seeds.json

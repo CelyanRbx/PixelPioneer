@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-11T22:40:27.7546723	Loot Tables
+// 1.20.1	2024-05-12T04:36:36.4659389	Loot Tables
 10426ee908d660f3cfe99bd3d08a1ea39c8bdd10 data/lolomobs/loot_tables/blocks/deepslate_sapphire_ore.json
 f92782a7b117efc44821697852bffc7922fd5ad7 data/lolomobs/loot_tables/blocks/end_stone_sapphire_ore.json
 42723a92a3210bce1dcac8cbcdb6ba7ec89cecf5 data/lolomobs/loot_tables/blocks/nether_sapphire_ore.json
@@ -15,3 +15,4 @@ e49e256c6ac925ffcf048a5d369e52581ce3bd3c data/lolomobs/loot_tables/blocks/sapphi
 aebb036980a6977f9d063952537c6caf0ed2e626 data/lolomobs/loot_tables/blocks/sapphire_trapdoor.json
 b1db233df4f42f7bfe0564166b958a0d22fecee1 data/lolomobs/loot_tables/blocks/sapphire_wall.json
 d84756a51d8dec53f8045a3795c1e4a0232e41b6 data/lolomobs/loot_tables/blocks/sound_block.json
+32076835cb44a9b439790dc817d8bc445fefb8f1 data/lolomobs/loot_tables/blocks/strawberry_crop.json

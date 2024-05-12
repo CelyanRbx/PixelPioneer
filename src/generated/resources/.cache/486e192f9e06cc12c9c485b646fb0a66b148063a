@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-11T22:40:27.7515237	Block States: lolomobs
+// 1.20.1	2024-05-12T04:36:36.4619461	Block States: lolomobs
 ef0aace641fe26c5ea935aa6c0d3acc7d6979f59 assets/lolomobs/blockstates/deepslate_sapphire_ore.json
 547d8d38ff3cb192e25ff386b63c441a1247989c assets/lolomobs/blockstates/end_stone_sapphire_ore.json
 7d9b493c9395cd3d935b82e1ab1d07ea5b56d661 assets/lolomobs/blockstates/nether_sapphire_ore.json
@@ -15,6 +15,7 @@ eac09f5cdf27a1f81de3333407898769df35a0db assets/lolomobs/blockstates/sapphire_st
 6b76ad1b76f00afce707573369d468dbc7e47bc4 assets/lolomobs/blockstates/sapphire_trapdoor.json
 d51228475f41130a62947daed33a8cff100db504 assets/lolomobs/blockstates/sapphire_wall.json
 d03fdd67bd4747d2daec9972e31283c5546d7678 assets/lolomobs/blockstates/sound_block.json
+2f8c58940e8afed75b4a31754cd808c05db1bc81 assets/lolomobs/blockstates/strawberry_crop.json
 6c81e951d19bbfdf1eaac14fd544542bb921d1cb assets/lolomobs/models/block/deepslate_sapphire_ore.json
 28166027cc7c90943b5987d43c2a9c85f510c81d assets/lolomobs/models/block/end_stone_sapphire_ore.json
 fb7a612737649ddea2d9d3e1cc7ecf2393b47a9c assets/lolomobs/models/block/nether_sapphire_ore.json
@@ -51,6 +52,12 @@ b329bd2d304d8a9fcc9300a225d3d66c0db1e281 assets/lolomobs/models/block/sapphire_t
 fd335f5f2909ff3d707e0a2adebb384c491340af assets/lolomobs/models/block/sapphire_wall_side.json
 c0cbedd4dffd6b00a4800cd1585d5fe3b4ed2ca5 assets/lolomobs/models/block/sapphire_wall_side_tall.json
 ad414f7813702b5b0aef3bb9d895b048575878da assets/lolomobs/models/block/sound_block.json
+370e02d788bda235b200351a19e7a97d95d4f7de assets/lolomobs/models/block/strawberry_stage0.json
+149af25abcdd195b8e8d0de0d786a4ce8a1990f8 assets/lolomobs/models/block/strawberry_stage1.json
+800be32e48a2ef3fa1641a66ffeee68e12d6845c assets/lolomobs/models/block/strawberry_stage2.json
+832a2606072e23b7fd7667718a3f4b9b93ed25ad assets/lolomobs/models/block/strawberry_stage3.json
+f9d5dab5f11b5716f776f9abe4086e422542b3f1 assets/lolomobs/models/block/strawberry_stage4.json
+de9a043c2053180b89410452bc1f30b8c7766707 assets/lolomobs/models/block/strawberry_stage5.json
 9b175c8cbb128f5d3196ca3211b79ee17caea6d5 assets/lolomobs/models/item/deepslate_sapphire_ore.json
 5f403b4b635fc47d8cb7c0783e969f8440403edd assets/lolomobs/models/item/end_stone_sapphire_ore.json
 fa93610ee07cba7582d5c2f2cd510b4197ed1027 assets/lolomobs/models/item/nether_sapphire_ore.json
