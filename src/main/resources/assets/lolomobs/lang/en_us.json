@@ -52,6 +52,13 @@
 
   "block.lolomobs.gem_polishing_station": "Gem Polishing Station",
 
+  "block.lolomobs.pine_log": "Pine Log",
+  "block.lolomobs.pine_planks": "Pine Planks",
+  "block.lolomobs.pine_wood": "Pine Wood",
+  "block.lolomobs.stripped_pine_log": "Stripped Pine Log",
+  "block.lolomobs.stripped_pine_wood": "Stripped Pine Wood",
+  "block.lolomobs.pine_leaves": "Pine Leaves",
+
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.lolomobs.soundmaster": "Sound Master",
