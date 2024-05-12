@@ -1,8 +1,9 @@
-// 1.20.1	2024-05-12T05:50:55.9855452	Block States: lolomobs
+// 1.20.1	2024-05-12T19:05:15.9840902	Block States: lolomobs
 a852b5678b9bcfd598549e2ca5b2e10b7ba83b21 assets/lolomobs/blockstates/catmint.json
 e674cf1c592832ea8c734f66123eee5d012c149b assets/lolomobs/blockstates/corn_crop.json
 ef0aace641fe26c5ea935aa6c0d3acc7d6979f59 assets/lolomobs/blockstates/deepslate_sapphire_ore.json
 547d8d38ff3cb192e25ff386b63c441a1247989c assets/lolomobs/blockstates/end_stone_sapphire_ore.json
+453ba3f8dfdd1eb3861a3b9b818a460f46958166 assets/lolomobs/blockstates/gem_polishing_station.json
 7d9b493c9395cd3d935b82e1ab1d07ea5b56d661 assets/lolomobs/blockstates/nether_sapphire_ore.json
 690f68e90efb329dac94deaec359a6d8edc34eb8 assets/lolomobs/blockstates/potted_catmint.json
 67f12da3392a292db2357a7b01e1475e24fadb93 assets/lolomobs/blockstates/raw_sapphire_block.json
@@ -75,6 +76,7 @@ de9a043c2053180b89410452bc1f30b8c7766707 assets/lolomobs/models/block/strawberry
 7990b5a59e01cc0c9a993961860e7c18f234dac0 assets/lolomobs/models/item/catmint.json
 9b175c8cbb128f5d3196ca3211b79ee17caea6d5 assets/lolomobs/models/item/deepslate_sapphire_ore.json
 5f403b4b635fc47d8cb7c0783e969f8440403edd assets/lolomobs/models/item/end_stone_sapphire_ore.json
+b2ea7701585c451e9916b81d05445b2e11bb6f84 assets/lolomobs/models/item/gem_polishing_station.json
 fa93610ee07cba7582d5c2f2cd510b4197ed1027 assets/lolomobs/models/item/nether_sapphire_ore.json
 79c340cc876cfc4ed2c0d2294249df7270fa0079 assets/lolomobs/models/item/potted_catmint.json
 d6282442333491588b95aea07d20ae323756b14c assets/lolomobs/models/item/raw_sapphire_block.json
