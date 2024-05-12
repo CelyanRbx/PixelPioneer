@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import fr.celyanrbx.lolomobs.block.ModBlocks;
 import fr.celyanrbx.lolomobs.item.ModCreativeModTabs;
 import fr.celyanrbx.lolomobs.item.ModItems;
+import fr.celyanrbx.lolomobs.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,8 @@ public class LoloMobs {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
