@@ -12,11 +12,11 @@
   },
   "pattern": [
     " r ",
-    " r ",
+    " s ",
     " s "
   ],
   "result": {
-    "item": "lolomobs:sapphire_sword"
+    "item": "lolomobs:sapphire_shovel"
   },
   "show_notification": true
 }
