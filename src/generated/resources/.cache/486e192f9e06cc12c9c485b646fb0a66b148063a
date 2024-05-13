@@ -1,9 +1,10 @@
-// 1.20.1	2024-05-13T14:25:51.6515214	Block States: lolomobs
+// 1.20.1	2024-05-13T20:34:46.6270216	Block States: lolomobs
 a852b5678b9bcfd598549e2ca5b2e10b7ba83b21 assets/lolomobs/blockstates/catmint.json
 e674cf1c592832ea8c734f66123eee5d012c149b assets/lolomobs/blockstates/corn_crop.json
 ef0aace641fe26c5ea935aa6c0d3acc7d6979f59 assets/lolomobs/blockstates/deepslate_sapphire_ore.json
 547d8d38ff3cb192e25ff386b63c441a1247989c assets/lolomobs/blockstates/end_stone_sapphire_ore.json
 453ba3f8dfdd1eb3861a3b9b818a460f46958166 assets/lolomobs/blockstates/gem_polishing_station.json
+992e78fda3767ec98d2b33a3d34e3d4814d73f98 assets/lolomobs/blockstates/mod_portal.json
 7d9b493c9395cd3d935b82e1ab1d07ea5b56d661 assets/lolomobs/blockstates/nether_sapphire_ore.json
 1fe1391366fbe430a6e1327c4fe7b6c56394c1c3 assets/lolomobs/blockstates/pine_hanging_sign.json
 13fc8caa2b13a4bdeb70f950317ee7d23d4fbc25 assets/lolomobs/blockstates/pine_leaves.json
@@ -43,6 +44,7 @@ fac0377dd14e6ea014f8540c572a0ffbb0a6d24b assets/lolomobs/models/block/corn_stage
 f3e3faf964cc6cc91588987db4ab3e7e531dc873 assets/lolomobs/models/block/corn_stage_8.json
 6c81e951d19bbfdf1eaac14fd544542bb921d1cb assets/lolomobs/models/block/deepslate_sapphire_ore.json
 28166027cc7c90943b5987d43c2a9c85f510c81d assets/lolomobs/models/block/end_stone_sapphire_ore.json
+f9e8cdae97a7874d6f007892741eab391604a51b assets/lolomobs/models/block/mod_portal.json
 fb7a612737649ddea2d9d3e1cc7ecf2393b47a9c assets/lolomobs/models/block/nether_sapphire_ore.json
 767b8d09764572d4204a9c73a594aba19e629956 assets/lolomobs/models/block/pine_hanging_sign.json
 0569f8267d10f298fa71b3c870cd59b0b42e4b7f assets/lolomobs/models/block/pine_leaves.json
@@ -101,6 +103,7 @@ a8b4cee05fb90e4798f48a06fa4d72519427499c assets/lolomobs/models/block/stripped_p
 9b175c8cbb128f5d3196ca3211b79ee17caea6d5 assets/lolomobs/models/item/deepslate_sapphire_ore.json
 5f403b4b635fc47d8cb7c0783e969f8440403edd assets/lolomobs/models/item/end_stone_sapphire_ore.json
 b2ea7701585c451e9916b81d05445b2e11bb6f84 assets/lolomobs/models/item/gem_polishing_station.json
+e827be0f4b3aa88dd06521b64f4a41a29306d9f3 assets/lolomobs/models/item/mod_portal.json
 fa93610ee07cba7582d5c2f2cd510b4197ed1027 assets/lolomobs/models/item/nether_sapphire_ore.json
 719fb88e099a36a6929b7d02a41219e6a00c20b8 assets/lolomobs/models/item/pine_leaves.json
 34285730d5bd9c3568ff4920a53ee1836d9e1ce5 assets/lolomobs/models/item/pine_log.json
