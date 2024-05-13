@@ -3,9 +3,11 @@ package fr.celyanrbx.lolomobs.item;
 import fr.celyanrbx.lolomobs.LoloMobs;
 import fr.celyanrbx.lolomobs.block.ModBlocks;
 import fr.celyanrbx.lolomobs.entity.ModEntities;
+import fr.celyanrbx.lolomobs.entity.custom.ModBoatEntity;
 import fr.celyanrbx.lolomobs.item.custom.FuelItem;
 import fr.celyanrbx.lolomobs.item.custom.MetalDetectorItem;
 import fr.celyanrbx.lolomobs.item.custom.ModArmorItem;
+import fr.celyanrbx.lolomobs.item.custom.ModBoatItem;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -13,7 +15,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -70,6 +71,16 @@ public class ModItems {
 
     public static final RegistryObject<Item> RHINO_SPANW_EGG = ITEMS.register("rhino_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
+
+    public static final RegistryObject<Item> PINE_SIGN = ITEMS.register("pine_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PINE_SIGN.get(), ModBlocks.PINE_WALL_SIGN.get()));
+    public static final RegistryObject<Item> PINE_HANGING_SIGN = ITEMS.register("pine_hanging_sign",
+            () -> new HangingSignItem(ModBlocks.PINE_HANGING_SIGN.get(), ModBlocks.PINE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
+    public static final RegistryObject<Item> PINE_BOAT = ITEMS.register("pine_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.PINE, new Item.Properties()));
+    public static final RegistryObject<Item> PINE_CHEST_BOAT = ITEMS.register("pine_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.PINE, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

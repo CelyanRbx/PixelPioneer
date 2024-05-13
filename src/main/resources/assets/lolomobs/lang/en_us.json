@@ -26,6 +26,9 @@
   "item.lolomobs.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.lolomobs.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.lolomobs.pine_boat": "Pine Boat",
+  "item.lolomobs.pine_chest_boat": "Pine Chest Boat",
+
   "item.lolomobs.rhino_spawn_egg": "Rhino Spawn Egg",
 
   "block.lolomobs.sapphire_block": "Block Of Sapphire",
@@ -59,11 +62,17 @@
   "block.lolomobs.stripped_pine_wood": "Stripped Pine Wood",
   "block.lolomobs.pine_leaves": "Pine Leaves",
 
+  "block.lolomobs.pine_sign": "Pine Sign",
+  "block.lolomobs.pine_hanging_sign": "Pine Hanging Sign",
+
+
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.lolomobs.soundmaster": "Sound Master",
 
   "sounds.lolomobs.metal_detector_found_ore": "Metal Detector Jingle",
+
+  "entity.lolomobs.mod_chest_boat": "Boat with Chest",
 
 
   "creativetab": "Sapphire LoloMobs Tab"

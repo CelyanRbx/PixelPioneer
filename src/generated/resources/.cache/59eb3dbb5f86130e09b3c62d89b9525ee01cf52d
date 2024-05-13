@@ -1,13 +1,17 @@
-// 1.20.1	2024-05-13T01:02:26.4928543	Loot Tables
+// 1.20.1	2024-05-13T02:25:13.9281932	Loot Tables
 87df71968b8e2cc1c04e66d98e55a25cd1230e9d data/lolomobs/loot_tables/blocks/catmint.json
 460cb9aa5973b5c7a242c6d8d7b1af5fe328982f data/lolomobs/loot_tables/blocks/corn_crop.json
 10426ee908d660f3cfe99bd3d08a1ea39c8bdd10 data/lolomobs/loot_tables/blocks/deepslate_sapphire_ore.json
 f92782a7b117efc44821697852bffc7922fd5ad7 data/lolomobs/loot_tables/blocks/end_stone_sapphire_ore.json
 f5d5e9e409d67cb711c9d784754defbfd1ffb2d6 data/lolomobs/loot_tables/blocks/gem_polishing_station.json
 42723a92a3210bce1dcac8cbcdb6ba7ec89cecf5 data/lolomobs/loot_tables/blocks/nether_sapphire_ore.json
+8d616d4695b95aa061254d8f8770093ed65cbfb5 data/lolomobs/loot_tables/blocks/pine_hanging_sign.json
 9f3e565204e0066643d9c18ebd2a184bd331e660 data/lolomobs/loot_tables/blocks/pine_leaves.json
 babfc71718aff5ca05b2285f37f8cd2b65c05606 data/lolomobs/loot_tables/blocks/pine_log.json
 a44cef1d9dcb964ab5bbe1bb44f189a43448cb6b data/lolomobs/loot_tables/blocks/pine_planks.json
+3a519535f9651834ea09319eb072d2d4d4fa691c data/lolomobs/loot_tables/blocks/pine_sign.json
+02f7647e8fb60c458d984c129bd69a964ddab917 data/lolomobs/loot_tables/blocks/pine_wall_hanging_sign.json
+de1b2e78fdf06e9365a581eef2b34870567684ea data/lolomobs/loot_tables/blocks/pine_wall_sign.json
 10da572f79b185db1027fd80d73641824d04935f data/lolomobs/loot_tables/blocks/pine_wood.json
 68f35659f47acb7d44d50ebcd018d180ef10e534 data/lolomobs/loot_tables/blocks/potted_catmint.json
 2d7ca3e3753ac8b342418e2122c81a1cc9e42a75 data/lolomobs/loot_tables/blocks/raw_sapphire_block.json

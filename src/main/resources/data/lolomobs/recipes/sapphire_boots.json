@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "lolomobs:sapphire"
+    }
+  },
+  "pattern": [
+    "   ",
+    "r r",
+    "r r"
+  ],
+  "result": {
+    "item": "lolomobs:sapphire_boots"
+  },
+  "show_notification": true
+}

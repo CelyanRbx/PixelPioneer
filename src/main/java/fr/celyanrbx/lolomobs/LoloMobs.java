@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import fr.celyanrbx.lolomobs.block.ModBlocks;
 import fr.celyanrbx.lolomobs.block.entity.ModBlockEntities;
 import fr.celyanrbx.lolomobs.entity.ModEntities;
+import fr.celyanrbx.lolomobs.entity.client.ModBoatRenderer;
 import fr.celyanrbx.lolomobs.entity.client.RhinoRenderer;
 import fr.celyanrbx.lolomobs.item.ModCreativeModTabs;
 import fr.celyanrbx.lolomobs.item.ModItems;
@@ -12,8 +13,10 @@ import fr.celyanrbx.lolomobs.recipe.ModRecipes;
 import fr.celyanrbx.lolomobs.screen.GemPolishingStationScreen;
 import fr.celyanrbx.lolomobs.screen.ModMenuTypes;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
+import fr.celyanrbx.lolomobs.util.ModWoodTypes;
 import fr.celyanrbx.lolomobs.villager.ModVillagers;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -89,9 +92,13 @@ public class LoloMobs {
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.PINE);
+
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
         MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
+        }
     }
-}
 }

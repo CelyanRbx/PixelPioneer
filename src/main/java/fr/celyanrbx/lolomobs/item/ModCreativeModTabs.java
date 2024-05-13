@@ -47,6 +47,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
                         pOutput.accept(ModItems.RHINO_SPANW_EGG.get());
 
+                        pOutput.accept(ModItems.PINE_SIGN.get());
+                        pOutput.accept(ModItems.PINE_HANGING_SIGN.get());
+
+                        pOutput.accept(ModItems.PINE_BOAT.get());
+                        pOutput.accept(ModItems.PINE_CHEST_BOAT.get());
+
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
@@ -82,7 +88,6 @@ public class ModCreativeModTabs {
 
                     })
                     .build());
-
 
 
     public static void register(IEventBus eventBus) {
