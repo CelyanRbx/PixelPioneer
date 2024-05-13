@@ -29,6 +29,8 @@
   "item.lolomobs.pine_boat": "Pine Boat",
   "item.lolomobs.pine_chest_boat": "Pine Chest Boat",
 
+  "item.lolomobs.dice": "Dice",
+
   "item.lolomobs.rhino_spawn_egg": "Rhino Spawn Egg",
 
   "block.lolomobs.sapphire_block": "Block Of Sapphire",
@@ -69,10 +71,9 @@
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.lolomobs.soundmaster": "Sound Master",
+  "entity.lolomobs.mod_chest_boat": "Boat with Chest",
 
   "sounds.lolomobs.metal_detector_found_ore": "Metal Detector Jingle",
-
-  "entity.lolomobs.mod_chest_boat": "Boat with Chest",
 
 
   "creativetab": "Sapphire LoloMobs Tab"
