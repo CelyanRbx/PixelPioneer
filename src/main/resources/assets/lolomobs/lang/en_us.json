@@ -69,6 +69,8 @@
 
   "block.lolomobs.pine_sapling": "Pine Sapling",
 
+  "block.lolomobs.mod_portal": "Mod Portal",
+
   "tooltip.lolomobs.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.lolomobs.soundmaster": "Sound Master",
