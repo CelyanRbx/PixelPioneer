@@ -99,6 +99,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.PINE_WALL_HANGING_SIGN.get(), block ->
                 createSingleItemTable(ModItems.PINE_HANGING_SIGN.get()));
 
+        this.dropSelf(ModBlocks.PINE_SAPLING.get());
+
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

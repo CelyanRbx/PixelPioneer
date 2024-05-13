@@ -5,6 +5,7 @@ import fr.celyanrbx.lolomobs.block.custom.*;
 import fr.celyanrbx.lolomobs.item.ModItems;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
 import fr.celyanrbx.lolomobs.util.ModWoodTypes;
+import fr.celyanrbx.lolomobs.worldgen.tree.PineTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -154,6 +155,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DICE_BLOCK = BLOCKS.register("dice_block",
             () -> new DiceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()));
+
+    public static final RegistryObject<Block> PINE_SAPLING = registerBlock("pine_sapling",
+            () -> new SaplingBlock(new PineTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
