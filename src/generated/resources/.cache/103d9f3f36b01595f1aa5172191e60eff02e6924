@@ -1,11 +1,13 @@
-// 1.20.1	2024-05-13T14:25:51.6585315	Registries
+// 1.20.1	2024-05-13T14:51:09.4210426	Registries
 38aff85ddb7e1485b457b541c759b0d9caa24b42 data/lolomobs/forge/biome_modifier/add_end_sapphire_ore.json
 dcf97b83bd8d18473a4dc675f4bc41065bb5369e data/lolomobs/forge/biome_modifier/add_nether_sapphire_ore.json
 bc4d3827005a6dcd52ad3ce8b1e523e1d8db5546 data/lolomobs/forge/biome_modifier/add_sapphire_ore.json
+3e52e639abf39911b7de04454801e107120491f6 data/lolomobs/forge/biome_modifier/add_tree_pine.json
 28d637659b428e4264491d9674fbd4926e0dd834 data/lolomobs/worldgen/configured_feature/end_sapphire_ore.json
 6cb05a39458d1d0d1836b3022c593168c13daa45 data/lolomobs/worldgen/configured_feature/nether_sapphire_ore.json
 c75b3e2d0a5e30f5d0061d70be919c1801f31ec4 data/lolomobs/worldgen/configured_feature/pine.json
 8683580aa8a47205d66c7da4caed44469517e6ae data/lolomobs/worldgen/configured_feature/sapphire_ore.json
 5faf9617b387e013d9c23373b0bd97fb6e381edc data/lolomobs/worldgen/placed_feature/end_sapphire_ore_placed.json
 b6ae580071dffcc795d38263a145b73c217a345d data/lolomobs/worldgen/placed_feature/nether_sapphire_ore_placed.json
+4cc78b6dd87a0599ebae333179e251287ac71b76 data/lolomobs/worldgen/placed_feature/pine_placed.json
 9ca4480448e6633eba3ee98da1bf9578742f15b0 data/lolomobs/worldgen/placed_feature/sapphire_ore_placed.json
