@@ -15,6 +15,8 @@ import fr.celyanrbx.lolomobs.screen.ModMenuTypes;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
 import fr.celyanrbx.lolomobs.util.ModWoodTypes;
 import fr.celyanrbx.lolomobs.villager.ModVillagers;
+import fr.celyanrbx.lolomobs.worldgen.biome.ModTerrablender;
+import fr.celyanrbx.lolomobs.worldgen.tree.ModFoliagePlacers;
 import fr.celyanrbx.lolomobs.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.Sheets;
@@ -63,6 +65,9 @@ public class LoloMobs {
 
         ModRecipes.register(modEventBus);
         ModTrunkPlacerTypes.register(modEventBus);
+
+        ModFoliagePlacers.register(modEventBus);
+        ModTerrablender.registerBiomes();
 
         modEventBus.addListener(this::commonSetup);
 
