@@ -4,10 +4,7 @@ import fr.celyanrbx.lolomobs.LoloMobs;
 import fr.celyanrbx.lolomobs.block.ModBlocks;
 import fr.celyanrbx.lolomobs.entity.ModEntities;
 import fr.celyanrbx.lolomobs.entity.custom.ModBoatEntity;
-import fr.celyanrbx.lolomobs.item.custom.FuelItem;
-import fr.celyanrbx.lolomobs.item.custom.MetalDetectorItem;
-import fr.celyanrbx.lolomobs.item.custom.ModArmorItem;
-import fr.celyanrbx.lolomobs.item.custom.ModBoatItem;
+import fr.celyanrbx.lolomobs.item.custom.*;
 import fr.celyanrbx.lolomobs.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -81,6 +78,9 @@ public class ModItems {
             () -> new ModBoatItem(false, ModBoatEntity.Type.PINE, new Item.Properties()));
     public static final RegistryObject<Item> PINE_CHEST_BOAT = ITEMS.register("pine_chest_boat",
             () -> new ModBoatItem(true, ModBoatEntity.Type.PINE, new Item.Properties()));
+
+    public static final RegistryObject<Item> DICE = ITEMS.register("dice",
+            () -> new DiceItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
