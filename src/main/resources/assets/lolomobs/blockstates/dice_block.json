@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "lolomobs:block/dice_1"
+    },
+    "number=north": {
+      "model": "lolomobs:block/dice_2"
+    },
+    "number=east": {
+      "model": "lolomobs:block/dice_3"
+    },
+    "number=south": {
+      "model": "lolomobs:block/dice_5"
+    },
+    "number=west": {
+      "model": "lolomobs:block/dice_4"
+    },
+    "number=down": {
+      "model": "lolomobs:block/dice_6"
+    }
+  }
+}
