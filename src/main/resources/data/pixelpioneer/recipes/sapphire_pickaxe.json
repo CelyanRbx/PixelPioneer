@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pixelpioneer",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "r": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "rrr",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "item": "pixelpioneer:sapphire_pickaxe"
+  },
+  "show_notification": true
+}

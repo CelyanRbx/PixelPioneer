@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pixelpioneer:block/stripped_pine_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pixelpioneer:block/stripped_pine_wood"
+    },
+    "axis=z": {
+      "model": "pixelpioneer:block/stripped_pine_wood_horizontal",
+      "x": 90
+    }
+  }
+}

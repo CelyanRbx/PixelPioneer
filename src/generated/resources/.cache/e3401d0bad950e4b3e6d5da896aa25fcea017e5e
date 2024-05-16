@@ -1,6 +1,0 @@
-// 1.20.1	2024-05-12T03:48:01.7490867	Global Loot Modifiers : lolomobs
-d08dcb70c0b5e75a551d8479c56eb6902dee3b7e data/forge/loot_modifiers/global_loot_modifiers.json
-30f51208e4215746297dc8c875307eb7f2ff348c data/lolomobs/loot_modifiers/metal_detector_from_jungle_temples.json
-49408d19e54530150f0b46012a2c57e572fd9e08 data/lolomobs/loot_modifiers/metal_detector_from_suspicious_sand.json
-36019bb3783652003ea55609577722278425849a data/lolomobs/loot_modifiers/pine_cone_from_creeper.json
-9c28bf3682b38c81984cde38c429fb375343689c data/lolomobs/loot_modifiers/pine_cone_from_grass.json

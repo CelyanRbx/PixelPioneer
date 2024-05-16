@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "pixelpioneer:block/dice_2",
+    "down": "pixelpioneer:block/dice_5",
+    "north": "pixelpioneer:block/dice_6",
+    "east": "pixelpioneer:block/dice_3",
+    "south": "pixelpioneer:block/dice_1",
+    "west": "pixelpioneer:block/dice_4",
+    "particle": "pixelpioneer:block/dice_2"
+  }
+}

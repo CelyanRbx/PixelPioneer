@@ -7,11 +7,11 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7-SNAPSHOT' apply true
 }
 
-version = '0.2-1.20.1'
-group = 'fr.celyanrbx.lolomobs'
+version = '0.3-1.20.1'
+group = 'fr.celyanrbx.pixelpioneer'
 
 base {
-    archivesName = 'LoloMobs'
+    archivesName = 'PixelPioneer'
 }
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
@@ -77,7 +77,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                "lolomobs" {
+                "pixelpioneer" {
                     source sourceSets.main
                 }
             }
@@ -105,7 +105,7 @@ minecraft {
             workingDirectory project.file('run-data')
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'lolomobs', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'pixelpioneer', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
         }
     }
 }
@@ -190,8 +190,8 @@ tasks.named('processResources', ProcessResources).configure {
 tasks.named('jar', Jar).configure {
     manifest {
         attributes([
-                'Specification-Title'     : 'lolomobs',
-                'Specification-Vendor'    : 'lolomobs',
+                'Specification-Title'     : 'pixelpioneer',
+                'Specification-Vendor'    : 'pixelpioneer',
                 'Specification-Version'   : '1', // We are version 1 of ourselves
                 'Implementation-Title'    : project.name,
                 'Implementation-Version'  : project.jar.archiveVersion,

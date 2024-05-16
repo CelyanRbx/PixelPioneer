@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pixelpioneer:block/sapphire_block",
+    "side": "pixelpioneer:block/sapphire_block",
+    "top": "pixelpioneer:block/sapphire_block"
+  }
+}

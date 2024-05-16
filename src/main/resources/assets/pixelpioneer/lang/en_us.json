@@ -1,0 +1,83 @@
+{
+  "item.pixelpioneer.sapphire": "Sapphire",
+  "item.pixelpioneer.raw_sapphire": "Raw Sapphire",
+
+  "item.pixelpioneer.metal_detector": "Metal Detector",
+  "item.pixelpioneer.strawberry": "Strawberry",
+  "item.pixelpioneer.pine_cone": "Pine Cone",
+  "item.pixelpioneer.sapphire_staff": "Sapphire Staff",
+
+  "item.pixelpioneer.sapphire_sword": "Sapphire Sword",
+  "item.pixelpioneer.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.pixelpioneer.sapphire_axe": "Sapphire Axe",
+  "item.pixelpioneer.sapphire_shovel": "Sapphire Shovel",
+  "item.pixelpioneer.sapphire_hoe": "Sapphire Hoe",
+
+  "item.pixelpioneer.sapphire_helmet": "Sapphire Helmet",
+  "item.pixelpioneer.sapphire_chestplate": "Sapphire Chestplate",
+  "item.pixelpioneer.sapphire_leggings": "Sapphire Leggings",
+  "item.pixelpioneer.sapphire_boots": "Sapphire Boots",
+
+  "item.pixelpioneer.strawberry_seeds": "Strawberry Seeds",
+
+  "item.pixelpioneer.corn": "Corn",
+  "item.pixelpioneer.corn_seeds": "Corn Seeds",
+
+  "item.pixelpioneer.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.pixelpioneer.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.pixelpioneer.pine_boat": "Pine Boat",
+  "item.pixelpioneer.pine_chest_boat": "Pine Chest Boat",
+
+  "item.pixelpioneer.dice": "Dice",
+
+  "item.pixelpioneer.rhino_spawn_egg": "Rhino Spawn Egg",
+
+  "block.pixelpioneer.sapphire_block": "Block Of Sapphire",
+  "block.pixelpioneer.raw_sapphire_block": "Block Of Raw Sapphire",
+
+  "block.pixelpioneer.sapphire_ore": "Sapphire Ore",
+  "block.pixelpioneerdeepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.pixelpioneer.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.pixelpioneer.nether_sapphire_ore": "Nether Sapphire Ore",
+
+  "block.pixelpioneer.sound_block": "Sound Block",
+
+  "block.pixelpioneer.sapphire_stairs": "Sapphire Stairs",
+  "block.pixelpioneer.sapphire_slab": "Sapphire Slab",
+  "block.pixelpioneer.sapphire_button": "Sapphire Button",
+  "block.pixelpioneer.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.pixelpioneer.sapphire_fence": "Sapphire Fence",
+  "block.pixelpioneer.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.pixelpioneer.sapphire_wall": "Sapphire Wall",
+  "block.pixelpioneer.sapphire_door": "Sapphire Door",
+  "block.pixelpioneer.sapphire_trapdoor": "Sapphire Trapdoor",
+
+  "block.pixelpioneer.catmint": "Catmint",
+
+  "block.pixelpioneer.gem_polishing_station": "Gem Polishing Station",
+
+  "block.pixelpioneer.pine_log": "Pine Log",
+  "block.pixelpioneer.pine_planks": "Pine Planks",
+  "block.pixelpioneer.pine_wood": "Pine Wood",
+  "block.pixelpioneer.stripped_pine_log": "Stripped Pine Log",
+  "block.pixelpioneer.stripped_pine_wood": "Stripped Pine Wood",
+  "block.pixelpioneer.pine_leaves": "Pine Leaves",
+
+  "block.pixelpioneer.pine_sign": "Pine Sign",
+  "block.pixelpioneer.pine_hanging_sign": "Pine Hanging Sign",
+
+  "block.pixelpioneer.pine_sapling": "Pine Sapling",
+
+  "block.pixelpioneer.mod_portal": "Mod Portal",
+
+  "tooltip.pixelpioneer.metal_detector.tooltip": "Finds valuables underground!",
+
+  "entity.minecraft.villager.pixelpioneer.soundmaster": "Sound Master",
+  "entity.pixelpioneer.mod_chest_boat": "Boat with Chest",
+
+  "sounds.pixelpioneer.metal_detector_found_ore": "Metal Detector Jingle",
+
+
+  "creativetab": "Sapphire PixelPioneer Tab"
+}

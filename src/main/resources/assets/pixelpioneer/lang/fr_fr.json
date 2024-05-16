@@ -1,0 +1,83 @@
+{
+  "item.pixelpioneer.sapphire": "Saphir",
+  "item.pixelpioneer.raw_sapphire": "Saphir brut",
+
+  "item.pixelpioneer.metal_detector": "Détecteur de métaux",
+  "item.pixelpioneer.strawberry": "Fraise",
+  "item.pixelpioneer.pine_cone": "Pomme de pin",
+  "item.pixelpioneer.sapphire_staff": "Bâton de saphir",
+
+  "item.pixelpioneer.sapphire_sword": "Épée en saphire",
+  "item.pixelpioneer.sapphire_pickaxe": "Pioche en saphir",
+  "item.pixelpioneer.sapphire_axe": "Hache en saphir",
+  "item.pixelpioneer.sapphire_shovel": "Pelle en saphir",
+  "item.pixelpioneer.sapphire_hoe": "Houe en saphir",
+
+  "item.pixelpioneer.sapphire_helmet": "Casque en saphir",
+  "item.pixelpioneer.sapphire_chestplate": "Plastron en saphir",
+  "item.pixelpioneer.sapphire_leggings": "Jambières en saphir",
+  "item.pixelpioneer.sapphire_boots": "Bottes en saphir",
+
+  "item.pixelpioneer.strawberry_seeds": "Graines de fraise",
+
+  "item.pixelpioneer.corn": "Maïs",
+  "item.pixelpioneer.corn_seeds": "Graines de maïs",
+
+  "item.pixelpioneer.bar_brawl_music_disc": "Disque",
+  "item.pixelpioneer.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.pixelpioneer.pine_boat": "Bateau en pin",
+  "item.pixelpioneer.pine_chest_boat": "Bateau de stockage en pin",
+
+  "item.pixelpioneer.dice": "Dé",
+
+  "item.pixelpioneer.rhino_spawn_egg": "Œuf d'apparition de rhino",
+
+  "block.pixelpioneer.sapphire_block": "Bloc de saphir",
+  "block.pixelpioneer.raw_sapphire_block": "Bloc de saphir brut",
+
+  "block.pixelpioneer.sapphire_ore": "Minerai de saphir",
+  "block.pixelpioneer.deepslate_sapphire_ore": "Minerai de saphir des abîmes",
+  "block.pixelpioneer.end_stone_sapphire_ore": "Minerai de saphir de l'end",
+  "block.pixelpioneer.nether_sapphire_ore": "Minerai de saphir du nether",
+
+  "block.pixelpioneer.sound_block": "Bloc sonore",
+
+  "block.pixelpioneer.sapphire_stairs": "Escalier en saphir",
+  "block.pixelpioneer.sapphire_slab": "Dalle en saphir",
+  "block.pixelpioneer.sapphire_button": "Bouton saphir ",
+  "block.pixelpioneer.sapphire_pressure_plate": "Plaque de pression en saphir",
+  "block.pixelpioneer.sapphire_fence": "Barrière en saphir",
+  "block.pixelpioneer.sapphire_fence_gate": "Portillon en saphir",
+  "block.pixelpioneer.sapphire_wall": "Muret en saphir",
+  "block.pixelpioneer.sapphire_door": "Porte en saphir",
+  "block.pixelpioneer.sapphire_trapdoor": "Trappe en saphir",
+
+  "block.pixelpioneer.catmint": "Cataire",
+
+  "block.pixelpioneer.gem_polishing_station": "Station de polissage de minerai",
+
+  "block.pixelpioneer.pine_log": "Bûche de pin",
+  "block.pixelpioneer.pine_planks": "Planches de pin",
+  "block.pixelpioneer.pine_wood": "Bois de pin",
+  "block.pixelpioneer.stripped_pine_log": "Bûche de pin écorcée",
+  "block.pixelpioneer.stripped_pine_wood": "Bois de pin écorcée",
+  "block.pixelpioneer.pine_leaves": "Feuilles de pin",
+
+  "block.pixelpioneer.pine_sign": "Pancarte en pin",
+  "block.pixelpioneer.pine_hanging_sign": "Pancarte suspendu en pin",
+
+  "block.pixelpioneer.pine_sapling": "Pousse de pin",
+
+  "block.pixelpioneer.mod_portal": "Téléporteur",
+
+  "tooltip.pixelpioneer.metal_detector.tooltip": "Trouvez des objets de valeur sous terre!",
+
+  "entity.minecraft.villager.pixelpioneer.soundmaster": "Maître du son",
+  "entity.pixelpioneer.mod_chest_boat": "Bateau de stockage",
+
+  "sounds.pixelpioneer.metal_detector_found_ore": "Metal Detector Jingle",
+
+
+  "creativetab": "Sapphire PixelPioneer Tab"
+}

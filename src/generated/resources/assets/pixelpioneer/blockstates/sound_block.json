@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pixelpioneer:block/sound_block"
+    }
+  }
+}

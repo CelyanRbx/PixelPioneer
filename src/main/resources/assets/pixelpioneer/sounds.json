@@ -1,0 +1,46 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.pixelpioneer.metal_detector_found_ore",
+    "sounds": [
+      "pixelpioneer:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "sounds.pixelpioneer.sound_block_break",
+    "sounds": [
+      "pixelpioneer:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "sounds.pixelpioneer.sound_block_step",
+    "sounds": [
+      "pixelpioneer:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "sounds.pixelpioneer.sound_block_place",
+    "sounds": [
+      "pixelpioneer:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "sounds.pixelpioneer.sound_block_hit",
+    "sounds": [
+      "pixelpioneer:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "sounds.pixelpioneer.sound_block_fall",
+    "sounds": [
+      "pixelpioneer:sound_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "pixelpioneer:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

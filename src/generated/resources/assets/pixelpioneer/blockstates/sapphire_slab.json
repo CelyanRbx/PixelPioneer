@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelpioneer:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "pixelpioneer:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "pixelpioneer:block/sapphire_slab_top"
+    }
+  }
+}

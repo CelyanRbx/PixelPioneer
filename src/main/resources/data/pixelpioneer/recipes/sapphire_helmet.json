@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "r r",
+    "   "
+  ],
+  "result": {
+    "item": "pixelpioneer:sapphire_helmet"
+  },
+  "show_notification": true
+}
