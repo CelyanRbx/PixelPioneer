@@ -1,0 +1,6 @@
+// 1.20.1	2024-05-16T21:12:24.3135288	Global Loot Modifiers : pixelpioneer
+24a894e3724e7c76d6dceace3ad3ae8bc073627b data/forge/loot_modifiers/global_loot_modifiers.json
+904464c378e45a8b95202f3e2237a3b03ff707b9 data/pixelpioneer/loot_modifiers/metal_detector_from_jungle_temples.json
+2fbeb5f0829fee4da501a1f1fccbb6e0c081f97f data/pixelpioneer/loot_modifiers/metal_detector_from_suspicious_sand.json
+c06d71b415b9ca8af07665a2ffee9dc12046b7f6 data/pixelpioneer/loot_modifiers/pine_cone_from_creeper.json
+c031ad70fc569904991dc68d888a269abe9de147 data/pixelpioneer/loot_modifiers/pine_cone_from_grass.json
