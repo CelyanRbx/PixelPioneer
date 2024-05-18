@@ -88,7 +88,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.PINE_PLANKS.get());
 
         this.add(ModBlocks.PINE_LEAVES.get(), block ->
-                createLeavesDrops(block, ModBlocks.SAPPHIRE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: Change to Sapling!
+                createLeavesDrops(block, ModBlocks.PINE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));// TODO: Change to Sapling!
 
         this.add(ModBlocks.PINE_SIGN.get(), block ->
                 createSingleItemTable(ModItems.PINE_SIGN.get()));

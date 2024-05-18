@@ -13,6 +13,8 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCon
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
 
+import static fr.celyanrbx.pixelpioneer.block.ModBlocks.BLOCKS;
+
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifiersProvider(PackOutput output) {
         super(output, PixelPioneer.MOD_ID);

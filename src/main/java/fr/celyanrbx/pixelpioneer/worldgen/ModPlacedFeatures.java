@@ -2,6 +2,7 @@ package fr.celyanrbx.pixelpioneer.worldgen;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
 import fr.celyanrbx.pixelpioneer.block.ModBlocks;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
