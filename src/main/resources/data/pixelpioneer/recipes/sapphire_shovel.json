@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "pixelpioneer",
+  "category": "equipment",
   "key": {
     "s": {
       "item": "minecraft:stick"
@@ -11,9 +10,9 @@
     }
   },
   "pattern": [
-    " r ",
-    " s ",
-    " s "
+    "r",
+    "s",
+    "s"
   ],
   "result": {
     "item": "pixelpioneer:sapphire_shovel"
