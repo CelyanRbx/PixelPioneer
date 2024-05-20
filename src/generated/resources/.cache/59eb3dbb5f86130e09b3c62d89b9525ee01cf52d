@@ -1,11 +1,11 @@
-// 1.20.1	2024-05-18T10:36:54.3682504	Loot Tables
+// 1.20.1	2024-05-20T00:21:46.0929955	Loot Tables
 03feefd81bb33f31e2786ce7d393d31b4e9c948a data/pixelpioneer/loot_tables/blocks/catmint.json
 bfa9fd0f6b97a99f31871d194470ffe230c75d71 data/pixelpioneer/loot_tables/blocks/corn_crop.json
 1199d6199b33e20ea86caa61d3f922beeb946ec9 data/pixelpioneer/loot_tables/blocks/deepslate_sapphire_ore.json
 2e208fe520c522f581dbb22c4b471c2d397dca85 data/pixelpioneer/loot_tables/blocks/end_stone_sapphire_ore.json
 cda59769dc4b475e4afbc9bf7d597b5a5a49e5b4 data/pixelpioneer/loot_tables/blocks/gem_polishing_station.json
 dc06c9eae44f1fae6024f25e1fb17e2f9d6495cd data/pixelpioneer/loot_tables/blocks/nether_sapphire_ore.json
-f5b2ebf261033948be1956ffe4947aad644220ad data/pixelpioneer/loot_tables/blocks/pine_hanging_sign.json
+226290ace8bcdb51e7794d2c69c0579ae189a028 data/pixelpioneer/loot_tables/blocks/pine_hanging_sign.json.json
 cc416bed9b07fe7fe3fa2d816766befcb4ae3585 data/pixelpioneer/loot_tables/blocks/pine_leaves.json
 475dbbf455d9ada0a5b2343252089ce0992aa086 data/pixelpioneer/loot_tables/blocks/pine_log.json
 7f0d43c9c8db1636dbb103e37aa13b8336768209 data/pixelpioneer/loot_tables/blocks/pine_planks.json
