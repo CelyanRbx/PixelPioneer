@@ -3,7 +3,8 @@
     "pixelpioneer:pine_cone_from_grass",
     "pixelpioneer:pine_cone_from_creeper",
     "pixelpioneer:metal_detector_from_suspicious_sand",
-    "pixelpioneer:metal_detector_from_jungle_temples"
+    "pixelpioneer:metal_detector_from_jungle_temples",
+    "pixelpioneer:dice"
   ],
   "replace": false
 }

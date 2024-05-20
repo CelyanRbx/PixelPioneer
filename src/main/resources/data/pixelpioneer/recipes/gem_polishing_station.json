@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "b b"
+  ],
+  "result": {
+    "item": "pixelpioneer:gem_polishing_station"
+  },
+  "show_notification": true
+}

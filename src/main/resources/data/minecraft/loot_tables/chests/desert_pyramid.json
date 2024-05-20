@@ -209,14 +209,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
+          "name": "minecraft:sniffer_egg",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -267,13 +267,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 4.0
+                "max": 2.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:sniffer_egg",
+          "name": "pixelpioneer:dice",
           "weight": 3
         },
         {

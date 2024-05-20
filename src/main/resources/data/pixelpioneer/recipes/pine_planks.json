@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "pixelpioneer",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "pixelpioneer:pine_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pixelpioneer:pine_planks"
+  }
+}

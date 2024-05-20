@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "key": {
+    "b": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "bbb"
+  ],
+  "result": {
+    "count": 6,
+    "item": "pixelpioneer:sapphire_slab"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "key": {
+    "b": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "b  ",
+    "bb ",
+    "bbb"
+  ],
+  "result": {
+    "count": 4,
+    "item": "pixelpioneer:sapphire_stairs"
+  },
+  "show_notification": true
+}

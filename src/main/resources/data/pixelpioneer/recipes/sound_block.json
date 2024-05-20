@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "key": {
+    "b": {
+      "item": "minecraft:white_concrete"
+    },
+    "j": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "bjb",
+    "bbb"
+  ],
+  "result": {
+    "item": "pixelpioneer:sound_block"
+  },
+  "show_notification": true
+}

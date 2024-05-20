@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "key": {
+    "b": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    " b "
+  ],
+  "result": {
+    "item": "pixelpioneer:sapphire_button"
+  },
+  "show_notification": true
+}

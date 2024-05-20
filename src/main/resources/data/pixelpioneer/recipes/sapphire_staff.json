@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "  p",
+    " s ",
+    "s  "
+  ],
+  "result": {
+    "item": "pixelpioneer:sapphire_staff"
+  },
+  "show_notification": true
+}

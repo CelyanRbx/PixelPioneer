@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "pixelpioneer:stripped_pine_log"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "pixelpioneer:stripped_pine_wood"
+  },
+  "show_notification": true
+}
