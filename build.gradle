@@ -7,7 +7,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7-SNAPSHOT' apply true
 }
 
-version = '0.4d-1.20.1'
+version = '1.0.0-1.20.1'
 group = 'fr.celyanrbx.pixelpioneer'
 
 base {
@@ -127,6 +127,13 @@ repositories {
         name = "Jared's maven"
         url = "https://maven.blamejared.com/"
     }
+    maven {
+        name = 'tterrag maven'
+        url = 'https://maven.tterrag.com/'
+    }
+    maven {
+        url "https://cursemaven.com"
+    }
     mavenCentral()
 }
 
@@ -156,6 +163,25 @@ dependencies {
     implementation fg.deobf("net.darkhax.botanypots:BotanyPots-Forge-${project.ext.minecraft_version}:${project.ext.botanypots_version}")
     implementation fg.deobf("net.darkhax.botanytrees:BotanyTrees-Forge-${project.ext.minecraft_version}:${project.ext.botanytrees_version}")
 
+    implementation fg.deobf("com.blamejared.crafttweaker:CraftTweaker-forge-${project.ext.minecraft_version}:${project.ext.crafttweaker_version}")
+    implementation fg.deobf("com.blamejared.jeitweaker:JeiTweaker-forge-${project.ext.minecraft_version}:${project.ext.jeitweaker_version}")
+    implementation fg.deobf("com.blamejared.createtweaker:CreateTweaker-forge-${project.ext.minecraft_version}:${project.ext.createtweaker_version}")
+
+    implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
+    implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+
+    implementation fg.deobf("curse.maven:allthemodium-364466:5348617")
+    implementation fg.deobf("curse.maven:geckolib-388172:5188427")
+    implementation fg.deobf("curse.maven:alltheores-405593:5348605")
+
+    implementation fg.deobf("curse.maven:ironfurnaces-237664:5159498")
+
+    implementation fg.deobf("curse.maven:cyclic-239286:5259070")
+    implementation fg.deobf("curse.maven:flib-661261:5262803")
+
+    implementation fg.deobf("curse.maven:alexsmobs-426558:5160697")
+    implementation fg.deobf("curse.maven:citadel-331936:5143956")
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
     // The group id is ignored when searching -- in this case, it is "blank"
