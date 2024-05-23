@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "item": "create:large_cogwheel"
+    },
+    "s": {
+      "item": "create:shaft"
+    },
+    "c": {
+      "item": "create:cogwheel"
+    },
+    "g": {
+      "item": "create:gearbox"
+    },
+    "a": {
+      "item": "create:andesite_alloy_block"
+    }
+  },
+  "pattern": [
+    "clc",
+    "sas",
+    "lgl"
+  ],
+  "result": {
+    "item": "create:creative_motor"
+  },
+  "show_notification": true
+}
