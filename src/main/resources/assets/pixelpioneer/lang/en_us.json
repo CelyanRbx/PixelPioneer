@@ -5,7 +5,7 @@
   "item.pixelpioneer.metal_detector": "Metal Detector",
   "item.pixelpioneer.strawberry": "Strawberry",
   "item.pixelpioneer.pine_cone": "Pine Cone",
-  "item.pixelpioneer.sapphire_staff": "Sapphire Staff",
+  "item.pixelpioneer.coal_briquette": "Coal Briquette",
 
   "item.pixelpioneer.sapphire_sword": "Sapphire Sword",
   "item.pixelpioneer.sapphire_pickaxe": "Sapphire Pickaxe",
@@ -13,15 +13,29 @@
   "item.pixelpioneer.sapphire_shovel": "Sapphire Shovel",
   "item.pixelpioneer.sapphire_hoe": "Sapphire Hoe",
 
+  "item.pixelpioneer.ruby_sword": "Ruby Sword",
+  "item.pixelpioneer.ruby_pickaxe": "Ruby Pickaxe",
+  "item.pixelpioneer.ruby_axe": "Ruby Axe",
+  "item.pixelpioneer.ruby_shovel": "Ruby Shovel",
+  "item.pixelpioneer.ruby_hoe": "Ruby Hoe",
+
   "item.pixelpioneer.sapphire_helmet": "Sapphire Helmet",
   "item.pixelpioneer.sapphire_chestplate": "Sapphire Chestplate",
   "item.pixelpioneer.sapphire_leggings": "Sapphire Leggings",
   "item.pixelpioneer.sapphire_boots": "Sapphire Boots",
 
+  "item.pixelpioneer.ruby_helmet": "Ruby Helmet",
+  "item.pixelpioneer.ruby_chestplate": "Ruby Chestplate",
+  "item.pixelpioneer.ruby_leggings": "Ruby Leggings",
+  "item.pixelpioneer.ruby_boots": "Ruby Boots",
+
   "item.pixelpioneer.strawberry_seeds": "Strawberry Seeds",
 
   "item.pixelpioneer.corn": "Corn",
   "item.pixelpioneer.corn_seeds": "Corn Seeds",
+
+  "item.pixelpioneer.tomato": "Tomato",
+  "item.pixelpioneer.tomato_seeds": "Tomato Seeds",
 
   "item.pixelpioneer.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.pixelpioneer.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
@@ -31,8 +45,6 @@
 
   "item.pixelpioneer.dice": "Dice",
 
-  "item.pixelpioneer.rhino_spawn_egg": "Rhino Spawn Egg",
-
   "block.pixelpioneer.sapphire_block": "Block Of Sapphire",
   "block.pixelpioneer.raw_sapphire_block": "Block Of Raw Sapphire",
 
@@ -41,7 +53,10 @@
   "block.pixelpioneer.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.pixelpioneer.nether_sapphire_ore": "Nether Sapphire Ore",
 
-  "block.pixelpioneer.sound_block": "Sound Block",
+  "block.pixelpioneer.ruby_ore": "Ruby Ore",
+  "block.pixelpioneerdeepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.pixelpioneer.end_stone_ruby_ore": "Endstone Ruby Ore",
+  "block.pixelpioneer.nether_ruby_ore": "Nether Ruby Ore",
 
   "block.pixelpioneer.sapphire_stairs": "Sapphire Stairs",
   "block.pixelpioneer.sapphire_slab": "Sapphire Slab",
@@ -52,6 +67,16 @@
   "block.pixelpioneer.sapphire_wall": "Sapphire Wall",
   "block.pixelpioneer.sapphire_door": "Sapphire Door",
   "block.pixelpioneer.sapphire_trapdoor": "Sapphire Trapdoor",
+
+  "block.pixelpioneer.ruby_stairs": "Ruby Stairs",
+  "block.pixelpioneer.ruby_slab": "Ruby Slab",
+  "block.pixelpioneer.ruby_button": "Ruby Button",
+  "block.pixelpioneer.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.pixelpioneer.ruby_fence": "Ruby Fence",
+  "block.pixelpioneer.ruby_fence_gate": "Ruby Fence Gate",
+  "block.pixelpioneer.ruby_wall": "Ruby Wall",
+  "block.pixelpioneer.ruby_door": "Ruby Door",
+  "block.pixelpioneer.ruby_trapdoor": "Ruby Trapdoor",
 
   "block.pixelpioneer.catmint": "Catmint",
 
@@ -71,9 +96,14 @@
 
   "block.pixelpioneer.mod_portal": "Mod Portal",
 
+  "item.pixelpioneer.ruby": "Ruby",
+  "item.pixelpioneer.raw_ruby": "Raw Ruby",
+
+  "block.pixelpioneer.ruby_block": "Block Of Ruby",
+  "block.pixelpioneer.raw_ruby_block": "Block Of Raw Ruby",
+
   "tooltip.pixelpioneer.metal_detector.tooltip": "Finds valuables underground!",
 
-  "entity.minecraft.villager.pixelpioneer.soundmaster": "Sound Master",
   "entity.pixelpioneer.mod_chest_boat": "Boat with Chest",
 
   "sounds.pixelpioneer.metal_detector_found_ore": "Metal Detector Jingle",
