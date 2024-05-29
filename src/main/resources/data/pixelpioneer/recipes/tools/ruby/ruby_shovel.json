@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "pixelpioneer",
+  "category": "equipment",
   "key": {
     "s": {
       "item": "minecraft:stick"
     },
-    "p": {
-      "item": "pixelpioneer:sapphire"
+    "r": {
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
-    "  p",
-    " s ",
-    "s  "
+    "r",
+    "s",
+    "s"
   ],
   "result": {
-    "item": "pixelpioneer:sapphire_staff"
+    "item": "pixelpioneer:ruby_shovel"
   },
   "show_notification": true
 }
