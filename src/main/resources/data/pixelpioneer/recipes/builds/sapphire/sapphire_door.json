@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "b": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "bb",
+    "bb",
+    "bb"
+  ],
+  "result": {
+    "count": 3,
+    "item": "pixelpioneer:sapphire_door"
+  },
+  "show_notification": true
+}
