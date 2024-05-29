@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "pixelpioneer:block/ruby_pressure_plate"
+    },
+    "powered=true": {
+      "model": "pixelpioneer:block/ruby_pressure_plate_down"
+    }
+  }
+}

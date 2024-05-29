@@ -6,7 +6,7 @@
       "item": "minecraft:stick"
     },
     "W": {
-      "item": "pixelpioneer:sapphire"
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
   ],
   "result": {
     "count": 3,
-    "item": "pixelpioneer:sapphire_fence"
+    "item": "pixelpioneer:ruby_fence"
   },
   "show_notification": true
 }

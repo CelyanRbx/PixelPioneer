@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "pixelpioneer",
+  "category": "building",
   "key": {
     "b": {
-      "item": "pixelpioneer:sapphire"
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
     "bb",
+    "bb",
     "bb"
   ],
   "result": {
-    "count": 2,
-    "item": "pixelpioneer:sapphire_trapdoor"
+    "count": 3,
+    "item": "pixelpioneer:ruby_door"
   },
   "show_notification": true
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelpioneer:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "pixelpioneer:block/ruby_block"
+    },
+    "type=top": {
+      "model": "pixelpioneer:block/ruby_slab_top"
+    }
+  }
+}

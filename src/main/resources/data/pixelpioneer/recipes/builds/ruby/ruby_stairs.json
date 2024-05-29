@@ -3,14 +3,17 @@
   "category": "pixelpioneer",
   "key": {
     "b": {
-      "item": "pixelpioneer:sapphire"
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
-    "bb"
+    "b  ",
+    "bb ",
+    "bbb"
   ],
   "result": {
-    "item": "pixelpioneer:sapphire_pressure_plate"
+    "count": 4,
+    "item": "pixelpioneer:ruby_stairs"
   },
   "show_notification": true
 }

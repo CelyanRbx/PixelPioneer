@@ -3,15 +3,14 @@
   "category": "pixelpioneer",
   "key": {
     "b": {
-      "item": "pixelpioneer:sapphire"
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
-    "bbb"
+    " b "
   ],
   "result": {
-    "count": 6,
-    "item": "pixelpioneer:sapphire_slab"
+    "item": "pixelpioneer:ruby_button"
   },
   "show_notification": true
 }

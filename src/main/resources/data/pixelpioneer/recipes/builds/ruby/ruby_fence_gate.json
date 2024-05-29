@@ -6,7 +6,7 @@
       "item": "minecraft:stick"
     },
     "W": {
-      "item": "pixelpioneer:sapphire"
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
@@ -14,7 +14,7 @@
     "#W#"
   ],
   "result": {
-    "item": "pixelpioneer:sapphire_fence_gate"
+    "item": "pixelpioneer:ruby_fence_gate"
   },
   "show_notification": true
 }
