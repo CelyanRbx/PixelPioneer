@@ -1,0 +1,12 @@
+{
+  "type": "pixelpioneer:gem_polishing",
+  "ingredients": [
+    {
+      "item": "pixelpioneer:raw_ruby"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "pixelpioneer:ruby"
+  }
+}
