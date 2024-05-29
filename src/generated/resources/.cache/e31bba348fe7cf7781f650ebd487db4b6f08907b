@@ -1,6 +1,6 @@
-// 1.20.1	2024-05-16T21:12:24.3325169	Tags for minecraft:item mod id pixelpioneer
+// 1.20.1	2024-05-29T08:25:06.2445545	Tags for minecraft:item mod id pixelpioneer
 6444c002aef433222a314ea0e2b9705645214625 data/minecraft/tags/items/creeper_drop_music_discs.json
 23624a0bbe7a21103113b183370bc7341524f717 data/minecraft/tags/items/logs_that_burn.json
 6444c002aef433222a314ea0e2b9705645214625 data/minecraft/tags/items/music_discs.json
 9b2354f27a6b0e18a836bcee411c96c38c256108 data/minecraft/tags/items/planks.json
-a8bc078105b8ab5eff311a301a70f6b602480271 data/minecraft/tags/items/trimmable_armor.json
+be8ddc76a7547f7d980b5573b5ae891469869d6c data/minecraft/tags/items/trimmable_armor.json

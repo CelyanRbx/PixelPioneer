@@ -1,468 +1,66 @@
-[23mai2024 21:59:36.541] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, pixelpioneer, --all, --output, C:\Users\lcool\Downloads\PixelPioneer\src\generated\resources, --existing, C:\Users\lcool\Downloads\PixelPioneer\src\main\resources]
-[23mai2024 21:59:36.580] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[23mai2024 21:59:36.924] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[23mai2024 21:59:37.033] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lcool/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[23mai2024 21:59:37.664] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[23mai2024 21:59:37.670] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[23mai2024 21:59:37.675] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[23mai2024 21:59:37.681] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[23mai2024 21:59:38.309] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[23mai2024 21:59:43.727] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23mai2024 21:59:43.791] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, pixelpioneer, --all, --output, C:\Users\lcool\Downloads\PixelPioneer\src\generated\resources, --existing, C:\Users\lcool\Downloads\PixelPioneer\src\main\resources]
-[23mai2024 21:59:44.393] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.396] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.399] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.402] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.405] [main/INFO] [mixin/]: Remapping refMap citadel.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.408] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.411] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[23mai2024 21:59:44.413] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[23mai2024 21:59:44.417] [main/INFO] [mixin/]: Remapping refMap crafttweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.420] [main/INFO] [mixin/]: Remapping refMap crafttweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.422] [main/INFO] [mixin/]: Remapping refMap createtweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.425] [main/INFO] [mixin/]: Remapping refMap createtweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.428] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.476] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:44.479] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
-[23mai2024 21:59:47.285] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [pixelpioneer]
-[23mai2024 21:59:57.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\lcool\Downloads\PixelPioneer\run-data\config\flib.toml is not correct. Correcting
-[23mai2024 21:59:57.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flib was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:57.771] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flib.command was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:57.771] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flib.command.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:57.788] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[23mai2024 21:59:57.794] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.153] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[23mai2024 21:59:58.158] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[23mai2024 21:59:58.158] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[23mai2024 21:59:58.704] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\lcool\Downloads\PixelPioneer\run-data\config\ironfurnaces-client.toml is not correct. Correcting
-[23mai2024 21:59:58.706] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.706] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.706] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_0 was corrected from null to its default, 80000. 
-[23mai2024 21:59:58.706] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_1 was corrected from null to its default, 200000. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_2 was corrected from null to its default, 1000000. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.tier was corrected from null to its default, 0. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.speed was corrected from null to its default, 160. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.generation was corrected from null to its default, 40. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.tier was corrected from null to its default, 0. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.speed was corrected from null to its default, 180. 
-[23mai2024 21:59:58.707] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.generation was corrected from null to its default, 40. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.tier was corrected from null to its default, 1. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.speed was corrected from null to its default, 120. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.generation was corrected from null to its default, 160. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.speed was corrected from null to its default, 80. 
-[23mai2024 21:59:58.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.generation was corrected from null to its default, 240. 
-[23mai2024 21:59:58.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.speed was corrected from null to its default, 40. 
-[23mai2024 21:59:58.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.generation was corrected from null to its default, 320. 
-[23mai2024 21:59:58.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.710] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.tier was corrected from null to its default, 1. 
-[23mai2024 21:59:58.710] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.speed was corrected from null to its default, 140. 
-[23mai2024 21:59:58.710] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.generation was corrected from null to its default, 100. 
-[23mai2024 21:59:58.710] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.710] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.711] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.speed was corrected from null to its default, 40. 
-[23mai2024 21:59:58.711] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.generation was corrected from null to its default, 360. 
-[23mai2024 21:59:58.711] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.711] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.speed was corrected from null to its default, 20. 
-[23mai2024 21:59:58.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.generation was corrected from null to its default, 500. 
-[23mai2024 21:59:58.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.speed was corrected from null to its default, 5. 
-[23mai2024 21:59:58.712] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.generation was corrected from null to its default, 1000. 
-[23mai2024 21:59:58.713] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.million_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.713] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.million_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.713] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipe_cache was corrected from null to its default, 10. 
-[23mai2024 21:59:58.713] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.713] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.speed was corrected from null to its default, 20. 
-[23mai2024 21:59:58.714] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.rainbow_generation was corrected from null to its default, 50000. 
-[23mai2024 21:59:58.714] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.generation was corrected from null to its default, 2000. 
-[23mai2024 21:59:58.714] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipeMaxXPLevel was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.714] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipeMaxXPLevel.level was corrected from null to its default, 100. 
-[23mai2024 21:59:58.731] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.733] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.733] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.speed was corrected from null to its default, 5. 
-[23mai2024 21:59:58.734] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.mult was corrected from null to its default, 16. 
-[23mai2024 21:59:58.734] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.generation was corrected from null to its default, 2000. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.speed was corrected from null to its default, 3. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.mult was corrected from null to its default, 32. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.generation was corrected from null to its default, 3000. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.speed was corrected from null to its default, 1. 
-[23mai2024 21:59:58.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.mult was corrected from null to its default, 64. 
-[23mai2024 21:59:58.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.generation was corrected from null to its default, 5000. 
-[23mai2024 21:59:58.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.tier was corrected from null to its default, 2. 
-[23mai2024 21:59:58.743] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.743] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.743] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei was corrected from null to its default, true. 
-[23mai2024 21:59:58.743] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei_catalysts was corrected from null to its default, true. 
-[23mai2024 21:59:58.743] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei_click_area was corrected from null to its default, true. 
-[23mai2024 21:59:58.750] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.rainbow was corrected from null to its default, true. 
-[23mai2024 21:59:58.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.errors was corrected from null to its default, false. 
-[23mai2024 21:59:58.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.web was corrected from null to its default, false. 
-[23mai2024 21:59:58.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.lightupdates was corrected from null to its default, false. 
-[23mai2024 21:59:58.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates.check_updates was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:58.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates.check_updates.updates was corrected from null to its default, true. 
-[23mai2024 21:59:58.767] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
-[23mai2024 21:59:58.772] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
-[23mai2024 21:59:59.660] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[23mai2024 21:59:59.697] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 22.17 ms
-[23mai2024 21:59:59.796] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\lcool\Downloads\PixelPioneer\run-data\config\cyclic.toml is not correct. Correcting
-[23mai2024 21:59:59.797] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.antigravity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.antigravity.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.attack_range was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.attack_range.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.blind was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.blind.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.butterfingers was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.butterfingers.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.flight was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.flight.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.frost_walker was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.frost_walker.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.gravity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.gravity.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.haste was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.haste.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.hunger was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.hunger.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.levitation was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.levitation.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.magnetic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.magnetic.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.reach_distance was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.reach_distance.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.resistance was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.resistance.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.stun was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.stun.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.swimspeed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.swimspeed.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.snowwalk was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.snowwalk.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.waterwalk was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.waterwalk.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.wither was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.potion.wither.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.auto_smelt was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.auto_smelt.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beekeeper was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beekeeper.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beheading was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beheading.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beheading.EntityMHF was corrected from null to its default, [minecraft:blaze:MHF_Blaze, minecraft:cat:MHF_Ocelot, minecraft:cave_spider:MHF_CaveSpider, minecraft:chicken:MHF_Chicken, minecraft:cow:MHF_Cow, minecraft:enderman:MHF_Enderman, minecraft:ghast:MHF_Ghast, minecraft:iron_golem:MHF_Golem, minecraft:magma_cube:MHF_LavaSlime, minecraft:mooshroom:MHF_MushroomCow, minecraft:ocelot:MHF_Ocelot, minecraft:pig:MHF_Pig, minecraft:zombie_pigman:MHF_PigZombie, minecraft:sheep:MHF_Sheep, minecraft:slime:MHF_Slime, minecraft:spider:MHF_Spider, minecraft:squid:MHF_Squid, minecraft:villager:MHF_Villager, minecraft:witch:MHF_Witch, minecraft:wolf:MHF_Wolf, minecraft:guardian:MHF_Guardian, minecraft:elder_guardian:MHF_Guardian, minecraft:snow_golem:MHF_SnowGolem, minecraft:silverfish:MHF_Silverfish, minecraft:endermite:MHF_Endermite]. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beheading.percent was corrected from null to its default, 20. 
-[23mai2024 21:59:59.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.beheading.per_level was corrected from null to its default, 25. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.curse was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.curse.ignored was corrected from null to its default, [minecraft:bad_omen, minecraft:nausea, botania:clear]. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.curse.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.disarm was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.disarm.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.disarm.percentPerLevel was corrected from null to its default, 15. 
-[23mai2024 21:59:59.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.disarm.ingoredMobs was corrected from null to its default, [alexsmobs:mimicube]. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.excavate was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.excavate.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.growth was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.growth.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.growth.radius was corrected from null to its default, 2. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.launch was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.launch.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.life_leech was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.life_leech.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.magnet was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.magnet.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.multishot was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.multishot.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.ender was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.ender.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.quickshot was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.quickshot.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.reach was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.reach.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.step was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.step.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.steady was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.steady.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.laststand was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.laststand.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.laststand.xp_cost was corrected from null to its default, 50. 
-[23mai2024 21:59:59.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.laststand.potion_ticks was corrected from null to its default, 600. 
-[23mai2024 21:59:59.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.laststand.cooldown was corrected from null to its default, 20. 
-[23mai2024 21:59:59.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.traveler was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.traveler.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.venom was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.venom.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.experience_boost was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.807] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.enchantment.experience_boost.enabled was corrected from null to its default, true. 
-[23mai2024 21:59:59.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.worldgen.flowers was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.worldgen.flowers.enabled was corrected from null to its default, false. 
-[23mai2024 21:59:59.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.worldgen.cyan_podzol_legacy was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.worldgen.cyan_podzol_legacy.enabled was corrected from null to its default, false. 
-[23mai2024 21:59:59.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command.gethome was corrected from null to its default, false. 
-[23mai2024 21:59:59.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command.health was corrected from null to its default, true. 
-[23mai2024 21:59:59.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command.home was corrected from null to its default, true. 
-[23mai2024 21:59:59.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command.hunger was corrected from null to its default, true. 
-[23mai2024 21:59:59.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command.dev was corrected from null to its default, false. 
-[23mai2024 21:59:59.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.command.ping was corrected from null to its default, false. 
-[23mai2024 21:59:59.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.logging was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.logging.info was corrected from null to its default, false. 
-[23mai2024 21:59:59.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_brush was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_brush.radius was corrected from null to its default, 6. 
-[23mai2024 21:59:59.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_forage was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_forage.radius was corrected from null to its default, 6. 
-[23mai2024 21:59:59.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_leaves was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_leaves.radius was corrected from null to its default, 6. 
-[23mai2024 21:59:59.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_harvest was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.scythe_harvest.radius was corrected from null to its default, 6. 
-[23mai2024 21:59:59.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.spell_water was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.spell_water.radius was corrected from null to its default, 3. 
-[23mai2024 21:59:59.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.spell_ice was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.spell_ice.radius was corrected from null to its default, 3. 
-[23mai2024 21:59:59.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.apple_ender was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.apple_ender.structure_tags was corrected from null to its default, [minecraft:eye_of_ender_located, minecraft:on_woodland_explorer_maps, minecraft:on_ocean_explorer_maps, minecraft:village]. 
-[23mai2024 21:59:59.815] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.apple_ender.printed was corrected from null to its default, 5. 
-[23mai2024 21:59:59.815] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_leather was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.815] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_leather.blocked_damage_percent was corrected from null to its default, 20. 
-[23mai2024 21:59:59.816] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_wood was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.816] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_wood.blocked_damage_percent was corrected from null to its default, 60. 
-[23mai2024 21:59:59.816] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_flint was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.816] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_flint.blocked_damage_percent was corrected from null to its default, 30. 
-[23mai2024 21:59:59.817] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.shield_flint.damage was corrected from null to its default, 50. 
-[23mai2024 21:59:59.817] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.wand_hypno was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.817] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.wand_hypno.energy was corrected from null to its default, 500. 
-[23mai2024 21:59:59.817] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.wand_hypno.range was corrected from null to its default, 16. 
-[23mai2024 21:59:59.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.wand_missile was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.wand_missile.energy was corrected from null to its default, 150. 
-[23mai2024 21:59:59.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.wand_missile.range was corrected from null to its default, 64. 
-[23mai2024 21:59:59.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.prospector was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.818] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.prospector.range was corrected from null to its default, 32. 
-[23mai2024 21:59:59.819] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.prospector.height was corrected from null to its default, 8. 
-[23mai2024 21:59:59.819] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.819] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald.toughness was corrected from null to its default, 3.0. 
-[23mai2024 21:59:59.819] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald.damage was corrected from null to its default, 4.5. 
-[23mai2024 21:59:59.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald.boots was corrected from null to its default, 4. 
-[23mai2024 21:59:59.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald.helm was corrected from null to its default, 4. 
-[23mai2024 21:59:59.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald.chest was corrected from null to its default, 9. 
-[23mai2024 21:59:59.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.emerald.leg was corrected from null to its default, 7. 
-[23mai2024 21:59:59.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.821] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian.toughness was corrected from null to its default, 6.0. 
-[23mai2024 21:59:59.821] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian.damage was corrected from null to its default, 10.5. 
-[23mai2024 21:59:59.821] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian.boots was corrected from null to its default, 7. 
-[23mai2024 21:59:59.821] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian.helm was corrected from null to its default, 7. 
-[23mai2024 21:59:59.821] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian.chest was corrected from null to its default, 11. 
-[23mai2024 21:59:59.822] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.obsidian.leg was corrected from null to its default, 10. 
-[23mai2024 21:59:59.823] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.spawner_seeker was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.823] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.spawner_seeker.range was corrected from null to its default, 64. 
-[23mai2024 21:59:59.823] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_luck was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.824] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_luck.boost was corrected from null to its default, 10. 
-[23mai2024 21:59:59.824] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_speed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.824] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_speed.boost was corrected from null to its default, 0.5. 
-[23mai2024 21:59:59.825] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_attack_speed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.825] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_attack_speed.boost was corrected from null to its default, 0.5. 
-[23mai2024 21:59:59.825] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_torch was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.825] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.charm_torch.light_level was corrected from null to its default, 9. 
-[23mai2024 21:59:59.826] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.caving_torch was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.826] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.caving_torch.light_limit was corrected from null to its default, 7. 
-[23mai2024 21:59:59.826] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.caving_torch.light_target was corrected from null to its default, 10. 
-[23mai2024 21:59:59.826] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.caving_torch.prefer_walls was corrected from null to its default, true. 
-[23mai2024 21:59:59.826] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.caving_torch.prefer_left_wall was corrected from null to its default, false. 
-[23mai2024 21:59:59.826] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.chorus_flight was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.chorus_flight.ticks was corrected from null to its default, 1200. 
-[23mai2024 21:59:59.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.chorus_spectral was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.chorus_spectral.ticks was corrected from null to its default, 600. 
-[23mai2024 21:59:59.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.monster_ball was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.monster_ball.ignore_list was corrected from null to its default, [minecraft:ender_dragon, minecraft:wither]. 
-[23mai2024 21:59:59.828] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.teleport_wand was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.828] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.teleport_wand.range was corrected from null to its default, 256. 
-[23mai2024 21:59:59.828] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.tile_transporter was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.829] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.tile_transporter.disable_pickup was corrected from null to its default, [parabox:parabox, extracells:fluidcrafter, extracells:ecbaseblock, extracells:fluidfiller, exnihilosequentia:*, refinedstorage:*, tconstruct:seared_fuel_tank, tconstruct:smeltery_controller, tconstruct:seared_drain, tconstruct:seared_fuel_gauge, tconstruct:seared_ingot_tank, tconstruct:seared_ingot_gauge, tconstruct:seared_melter, tconstruct:seared_heater, tconstruct:scorched_drain, tconstruct:scorched_duct, tconstruct:scorched_chute, tconstruct:foundry_controller, tconstruct:scorched_alloyer, rftoolspower:cell3, rftoolspower:cell2, rftoolspower:cell1, rftoolspower:cell3, rftoolspower:cell2, rftoolspower:cell1]. 
-[23mai2024 21:59:59.829] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.tile_transporter.overrideChestSingle was corrected from null to its default, true. 
-[23mai2024 21:59:59.829] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.heart was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.830] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.heart.experience was corrected from null to its default, 500. 
-[23mai2024 21:59:59.830] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.heart.maximum was corrected from null to its default, 100. 
-[23mai2024 21:59:59.830] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.830] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.wireless_transfer_dimensional was corrected from null to its default, true. 
-[23mai2024 21:59:59.830] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.harmful_potions was corrected from null to its default, true. 
-[23mai2024 21:59:59.831] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anti_beacon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.831] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anti_beacon.radius was corrected from null to its default, 16. 
-[23mai2024 21:59:59.831] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anti_beacon.ticks was corrected from null to its default, 200. 
-[23mai2024 21:59:59.831] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anti_beacon.potion_list was corrected from null to its default, [minecraft:poison, minecraft:*_poison, minecraft:wither, cyclic:gravity, minecraft:weakness, minecraft:slowness]. 
-[23mai2024 21:59:59.831] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables.fluid was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables.fluid.buffer was corrected from null to its default, 16. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables.fluid.flow was corrected from null to its default, 1000. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables.energy was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables.energy.buffer was corrected from null to its default, 32000. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.cables.energy.flow was corrected from null to its default, 1000. 
-[23mai2024 21:59:59.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_fuel was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_fuel.rf_per_tick was corrected from null to its default, 80. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_food was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_food.rf_per_tick was corrected from null to its default, 60. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_food.ticks_per_food was corrected from null to its default, 100. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_solar was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_solar.energy was corrected from null to its default, 4. 
-[23mai2024 21:59:59.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.generator_solar.ticks was corrected from null to its default, 60. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sponge_lava was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sponge_lava.radius was corrected from null to its default, 8. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peace_candle was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peace_candle.height was corrected from null to its default, 4. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peace_candle.radius was corrected from null to its default, 32. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.altar_destruction was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.altar_destruction.height was corrected from null to its default, 8. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.altar_destruction.radius was corrected from null to its default, 32. 
-[23mai2024 21:59:59.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.magnet_block was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.magnet_block.radius was corrected from null to its default, 16. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.no_soliciting was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.no_soliciting.height was corrected from null to its default, 4. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.no_soliciting.radius was corrected from null to its default, 32. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.water_candle was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.water_candle.radius was corrected from null to its default, 8. 
-[23mai2024 21:59:59.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.water_candle.tick_rate was corrected from null to its default, 60. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.packager was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.packager.energy_cost was corrected from null to its default, 50. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.user was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.user.energy_cost was corrected from null to its default, 0. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anvil was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anvil.energy_cost was corrected from null to its default, 250. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.dropper was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.dropper.energy_cost was corrected from null to its default, 50. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.forester was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.forester.energy_cost was corrected from null to its default, 50. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.harvester was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.harvester.energy_cost was corrected from null to its default, 250. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.beacon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.beacon.energy_cost was corrected from null to its default, 0. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.miner was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.miner.energy_cost was corrected from null to its default, 10. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncraft was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncraft.energy_cost was corrected from null to its default, 1000. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.collector_fluid was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.collector_fluid.energy_cost was corrected from null to its default, 500. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peat_farm was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peat_farm.energy_cost was corrected from null to its default, 500. 
-[23mai2024 21:59:59.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.crafter was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.crafter.energy_cost was corrected from null to its default, 500. 
-[23mai2024 21:59:59.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.structure was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.structure.energy_cost was corrected from null to its default, 10. 
-[23mai2024 21:59:59.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.teleport was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.teleport.energy_cost was corrected from null to its default, 400. 
-[23mai2024 21:59:59.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.teleport.energy_cost_xdim was corrected from null to its default, 8000. 
-[23mai2024 21:59:59.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peat was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.peat.conversion_chance was corrected from null to its default, 0.07999999821186066. 
-[23mai2024 21:59:59.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anvil_magma was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anvil_magma.fluid_cost was corrected from null to its default, 100. 
-[23mai2024 21:59:59.840] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.disenchanter was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.disenchanter.fluid_cost was corrected from null to its default, 100. 
-[23mai2024 21:59:59.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.disenchanter.energy_cost was corrected from null to its default, 2500. 
-[23mai2024 21:59:59.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anvil_void was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.anvil_void.fluid_cost was corrected from null to its default, 25. 
-[23mai2024 21:59:59.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sound.radius was corrected from null to its default, 8. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.ender_shelf was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.ender_shelf.books_per_row was corrected from null to its default, 256. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.ender_shelf.controller_distance was corrected from null to its default, 64. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.soundproofing was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.soundproofing.radius was corrected from null to its default, 6. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sprinkler was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sprinkler.radius was corrected from null to its default, 4. 
-[23mai2024 21:59:59.842] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sprinkler.water was corrected from null to its default, 5. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.sprinkler.ticks was corrected from null to its default, 20. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_preta was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_preta.growth_interval was corrected from null to its default, 100. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_preta.growth_chance was corrected from null to its default, 0.5. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_preta.height was corrected from null to its default, 8. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_glass was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_glass.timer was corrected from null to its default, 100. 
-[23mai2024 21:59:59.843] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.terra_glass.height was corrected from null to its default, 8. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_teleport was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_teleport.range was corrected from null to its default, 128. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_teleport.hunger was corrected from null to its default, 1. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_teleport.exp was corrected from null to its default, 0. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_teleport.frequency was corrected from null to its default, 5. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.battery was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.844] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.battery.charge was corrected from null to its default, 8000. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.experience_pylon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.experience_pylon.radius was corrected from null to its default, 16. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.fisher was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.fisher.radius was corrected from null to its default, 12. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.fisher.chance was corrected from null to its default, 0.06. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_redstone was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_redstone.range was corrected from null to its default, 32. 
-[23mai2024 21:59:59.846] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.eye_redstone.frequency was corrected from null to its default, 5. 
-[23mai2024 21:59:59.846] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncrafter was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.846] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncrafter.nbt_ignored was corrected from null to its default, false. 
-[23mai2024 21:59:59.846] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncrafter.ignore_list was corrected from null to its default, [minecraft:elytra, minecraft:tipped_arrow, minecraft:magma_block, minecraft:stick, spectrite:spectrite_arrow, spectrite:spectrite_arrow_special, techreborn:uumatter, projecte:*]. 
-[23mai2024 21:59:59.847] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncrafter.ignore_recipes was corrected from null to its default, [minecraft:white_dye_from_lily_of_the_valley, minecraft:orange_dye_from_orange_tulip, minecraft:magenta_dye_from_allium, minecraft:magenta_dye_from_lilac, minecraft:light_blue_dye_from_blue_orchid, minecraft:yellow_dye_from_sunflower, minecraft:yellow_dye_from_dandelion, minecraft:pink_dye_from_peony, minecraft:pink_dye_from_pink_tulip, minecraft:light_gray_dye_from_oxeye_daisy, minecraft:light_gray_dye_from_azure_bluet, minecraft:light_gray_dye_from_white_tulip, minecraft:blue_dye_from_cornflower, minecraft:red_dye_from_poppy, minecraft:red_dye_from_rose_bush, minecraft:red_dye_from_tulip, minecraft:black_dye_from_wither_rose, minecraft:blue_dye, minecraft:black_dye, minecraft:brown_dye, botania:cobweb, minecraft:magma_cream, minecraft:beacon, minecraft:stick_from_bamboo_item, minecraft:netherite_ingot_from_netherite_block, mysticalagriculture:essence*, mysticalagriculture:farmland_till, refinedstorage:coloring_recipes*, forcecraft:transmutation*, cyclic:flower_purple_tulip, cyclic:flower_absalon_tulip, cyclic:flower_cyan, cyclic:flower_lime_carnation, cyclic:fireball, cyclic:shapeless/spark]. 
-[23mai2024 21:59:59.848] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.uncrafter.ticks was corrected from null to its default, 60. 
-[23mai2024 21:59:59.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\lcool\Downloads\PixelPioneer\run-data\config\cyclic-client.toml is not correct. Correcting
-[23mai2024 21:59:59.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.collector_item was corrected from null to its default, #444044. 
-[23mai2024 21:59:59.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.collector_fluid was corrected from null to its default, #444044. 
-[23mai2024 21:59:59.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.detector_entity was corrected from null to its default, #00FF00. 
-[23mai2024 21:59:59.863] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.detector_item was corrected from null to its default, #00AA00. 
-[23mai2024 21:59:59.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.peat_farm was corrected from null to its default, #404040. 
-[23mai2024 21:59:59.864] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.miner was corrected from null to its default, #0000AA. 
-[23mai2024 21:59:59.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.dropper was corrected from null to its default, #AA0011. 
-[23mai2024 21:59:59.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.forester was corrected from null to its default, #11BB00. 
-[23mai2024 21:59:59.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.harvester was corrected from null to its default, #00EE00. 
-[23mai2024 21:59:59.865] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.colors.structure was corrected from null to its default, #FF0000. 
-[23mai2024 21:59:59.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.text was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.blocks.text.FluidContents was corrected from null to its default, true. 
-[23mai2024 21:59:59.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23mai2024 21:59:59.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors.location was corrected from null to its default, #0000FF. 
-[23mai2024 21:59:59.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors.shape_data was corrected from null to its default, #FFC800. 
-[23mai2024 21:59:59.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors.randomize_scepter was corrected from null to its default, #00EE00. 
-[23mai2024 21:59:59.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors.offset_scepter was corrected from null to its default, #00FF00. 
-[23mai2024 21:59:59.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors.replace_scepter was corrected from null to its default, #FFFF00. 
-[23mai2024 21:59:59.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.items.colors.build_scepter was corrected from null to its default, #0000FF. 
-[23mai2024 22:00:00.526] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
-[23mai2024 22:00:00.527] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
-[23mai2024 22:00:09.698] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[23mai2024 22:00:09.700] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[23mai2024 22:00:10.563] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[23mai2024 22:00:10.606] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 42 ms
-[23mai2024 22:00:10.606] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[23mai2024 22:00:10.664] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 57 ms
-[23mai2024 22:00:10.665] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: pixelpioneer
-[23mai2024 22:00:10.962] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: pixelpioneer finished after 297 ms
-[23mai2024 22:00:10.962] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: pixelpioneer
-[23mai2024 22:00:11.034] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: pixelpioneer finished after 71 ms
-[23mai2024 22:00:11.034] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id pixelpioneer
-[23mai2024 22:00:11.060] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id pixelpioneer finished after 26 ms
-[23mai2024 22:00:11.061] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id pixelpioneer
-[23mai2024 22:00:11.067] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id pixelpioneer finished after 5 ms
-[23mai2024 22:00:11.067] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : pixelpioneer
-[23mai2024 22:00:11.074] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : pixelpioneer finished after 7 ms
-[23mai2024 22:00:11.074] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id pixelpioneer
-[23mai2024 22:00:11.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id pixelpioneer finished after 1 ms
-[23mai2024 22:00:11.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[23mai2024 22:00:11.112] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 35 ms
-[23mai2024 22:00:11.112] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 549 ms
-[23mai2024 22:00:11.146] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 288, old count: 289, new count: 289, removed stale: 0, written: 0
+[29mai2024 12:28:17.298] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, pixelpioneer, --all, --output, C:\Users\lcool\Downloads\PixelPioneer\src\generated\resources, --existing, C:\Users\lcool\Downloads\PixelPioneer\src\main\resources]
+[29mai2024 12:28:17.306] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[29mai2024 12:28:17.593] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[29mai2024 12:28:17.664] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lcool/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[29mai2024 12:28:18.140] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[29mai2024 12:28:18.145] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[29mai2024 12:28:18.150] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[29mai2024 12:28:18.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lcool\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[29mai2024 12:28:18.582] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[29mai2024 12:28:21.961] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29mai2024 12:28:22.012] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\lcool\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, pixelpioneer, --all, --output, C:\Users\lcool\Downloads\PixelPioneer\src\generated\resources, --existing, C:\Users\lcool\Downloads\PixelPioneer\src\main\resources]
+[29mai2024 12:28:22.482] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.484] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.486] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.488] [main/INFO] [mixin/]: Remapping refMap bookshelf.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.490] [main/INFO] [mixin/]: Remapping refMap citadel.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.491] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.493] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29mai2024 12:28:22.495] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[29mai2024 12:28:22.498] [main/INFO] [mixin/]: Remapping refMap crafttweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.500] [main/INFO] [mixin/]: Remapping refMap crafttweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.502] [main/INFO] [mixin/]: Remapping refMap createtweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.503] [main/INFO] [mixin/]: Remapping refMap createtweaker.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.505] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.550] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:22.552] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\lcool\Downloads\PixelPioneer\build\createSrgToMcp\output.srg
+[29mai2024 12:28:24.229] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [pixelpioneer]
+[29mai2024 12:28:31.890] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[29mai2024 12:28:31.894] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[29mai2024 12:28:32.155] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.155] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.155] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.155] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.155] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.155] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.156] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[29mai2024 12:28:32.383] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[29mai2024 12:28:32.383] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[29mai2024 12:28:32.662] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[29mai2024 12:28:32.667] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[29mai2024 12:28:33.330] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[29mai2024 12:28:33.350] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 13.59 ms
+[29mai2024 12:28:33.711] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[29mai2024 12:28:33.711] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[29mai2024 12:28:39.602] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[29mai2024 12:28:39.603] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lcool/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[29mai2024 12:28:40.111] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[29mai2024 12:28:40.139] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 28 ms
+[29mai2024 12:28:40.139] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[29mai2024 12:28:40.182] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 42 ms
+[29mai2024 12:28:40.182] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: pixelpioneer
+[29mai2024 12:28:40.459] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: pixelpioneer finished after 276 ms
+[29mai2024 12:28:40.459] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: pixelpioneer
+[29mai2024 12:28:40.571] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: pixelpioneer finished after 112 ms
+[29mai2024 12:28:40.572] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id pixelpioneer
+[29mai2024 12:28:40.584] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id pixelpioneer finished after 11 ms
+[29mai2024 12:28:40.584] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id pixelpioneer
+[29mai2024 12:28:40.588] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id pixelpioneer finished after 3 ms
+[29mai2024 12:28:40.588] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : pixelpioneer
+[29mai2024 12:28:40.595] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : pixelpioneer finished after 6 ms
+[29mai2024 12:28:40.595] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id pixelpioneer
+[29mai2024 12:28:40.596] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id pixelpioneer finished after 1 ms
+[29mai2024 12:28:40.596] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[29mai2024 12:28:40.626] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 29 ms
+[29mai2024 12:28:40.626] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 516 ms
+[29mai2024 12:28:40.662] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 428, old count: 417, new count: 429, removed stale: 0, written: 12
