@@ -4,24 +4,38 @@
 
   "item.pixelpioneer.metal_detector": "Détecteur de métaux",
   "item.pixelpioneer.strawberry": "Fraise",
+  "item.pixelpioneer.coal_briquette": "Briquette de Charbon",
   "item.pixelpioneer.pine_cone": "Pomme de pin",
-  "item.pixelpioneer.sapphire_staff": "Bâton de saphir",
 
-  "item.pixelpioneer.sapphire_sword": "Épée en saphire",
+  "item.pixelpioneer.sapphire_sword": "Épée en saphir",
   "item.pixelpioneer.sapphire_pickaxe": "Pioche en saphir",
   "item.pixelpioneer.sapphire_axe": "Hache en saphir",
   "item.pixelpioneer.sapphire_shovel": "Pelle en saphir",
   "item.pixelpioneer.sapphire_hoe": "Houe en saphir",
+
+  "item.pixelpioneer.ruby_sword": "Épée en rubis",
+  "item.pixelpioneer.ruby_pickaxe": "Pioche en rubis",
+  "item.pixelpioneer.ruby_axe": "Hache en rubis",
+  "item.pixelpioneer.ruby_shovel": "Pelle en rubis",
+  "item.pixelpioneer.ruby_hoe": "Houe en rubis",
 
   "item.pixelpioneer.sapphire_helmet": "Casque en saphir",
   "item.pixelpioneer.sapphire_chestplate": "Plastron en saphir",
   "item.pixelpioneer.sapphire_leggings": "Jambières en saphir",
   "item.pixelpioneer.sapphire_boots": "Bottes en saphir",
 
+  "item.pixelpioneer.ruby_helmet": "Casque en rubis",
+  "item.pixelpioneer.ruby_chestplate": "Plastron en rubis",
+  "item.pixelpioneer.ruby_leggings": "Jambières en rubis",
+  "item.pixelpioneer.ruby_boots": "Bottes en rubis",
+
   "item.pixelpioneer.strawberry_seeds": "Graines de fraise",
 
   "item.pixelpioneer.corn": "Maïs",
   "item.pixelpioneer.corn_seeds": "Graines de maïs",
+
+  "item.pixelpioneer.tomato": "Tomate",
+  "item.pixelpioneer.tomato_seeds": "Graines de Tomate",
 
   "item.pixelpioneer.bar_brawl_music_disc": "Disque",
   "item.pixelpioneer.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
@@ -31,8 +45,6 @@
 
   "item.pixelpioneer.dice": "Dé",
 
-  "item.pixelpioneer.rhino_spawn_egg": "Œuf d'apparition de rhino",
-
   "block.pixelpioneer.sapphire_block": "Bloc de saphir",
   "block.pixelpioneer.raw_sapphire_block": "Bloc de saphir brut",
 
@@ -41,7 +53,10 @@
   "block.pixelpioneer.end_stone_sapphire_ore": "Minerai de saphir de l'end",
   "block.pixelpioneer.nether_sapphire_ore": "Minerai de saphir du nether",
 
-  "block.pixelpioneer.sound_block": "Bloc sonore",
+  "block.pixelpioneer.ruby_ore": "Minerai de rubis",
+  "block.pixelpioneer.deepslate_ruby_ore": "Minerai de rubis des abîmes",
+  "block.pixelpioneer.end_stone_ruby_ore": "Minerai de rubis de l'end",
+  "block.pixelpioneer.nether_ruby_ore": "Minerai de rubis du nether",
 
   "block.pixelpioneer.sapphire_stairs": "Escalier en saphir",
   "block.pixelpioneer.sapphire_slab": "Dalle en saphir",
@@ -52,6 +67,16 @@
   "block.pixelpioneer.sapphire_wall": "Muret en saphir",
   "block.pixelpioneer.sapphire_door": "Porte en saphir",
   "block.pixelpioneer.sapphire_trapdoor": "Trappe en saphir",
+
+  "block.pixelpioneer.ruby_stairs": "Escalier en rubis",
+  "block.pixelpioneer.ruby_slab": "Dalle en rubis",
+  "block.pixelpioneer.ruby_button": "Bouton en rubis",
+  "block.pixelpioneer.ruby_pressure_plate": "Plaque de pression en rubis",
+  "block.pixelpioneer.ruby_fence": "Barrière en rubis",
+  "block.pixelpioneer.ruby_fence_gate": "Portillon en rubis",
+  "block.pixelpioneer.ruby_wall": "Muret en rubis",
+  "block.pixelpioneer.ruby_door": "Porte en rubis",
+  "block.pixelpioneer.ruby_trapdoor": "Trappe en rubis",
 
   "block.pixelpioneer.catmint": "Cataire",
 
@@ -71,9 +96,14 @@
 
   "block.pixelpioneer.mod_portal": "Téléporteur",
 
+  "item.pixelpioneer.ruby": "Rubis",
+  "item.pixelpioneer.raw_ruby": "Rubis Brut",
+
+  "block.pixelpioneer.ruby_block": "Bloc de rubis",
+  "block.pixelpioneer.raw_ruby_block": "Bloc de rubis brut",
+
   "tooltip.pixelpioneer.metal_detector.tooltip": "Trouvez des objets de valeur sous terre!",
 
-  "entity.minecraft.villager.pixelpioneer.soundmaster": "Maître du son",
   "entity.pixelpioneer.mod_chest_boat": "Bateau de stockage",
 
   "sounds.pixelpioneer.metal_detector_found_ore": "Metal Detector Jingle",
