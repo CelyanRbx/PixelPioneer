@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
-      "item": "pixelpioneer:raw_sapphire"
+    "S": {
+      "item": "pixelpioneer:ruby"
     }
   },
   "pattern": [
-    "RRR",
-    "RRR",
-    "RRR"
+    "SSS",
+    "SSS",
+    "SSS"
   ],
   "result": {
-    "item": "pixelpioneer:raw_sapphire_block"
+    "item": "pixelpioneer:ruby_block"
   },
   "show_notification": true
 }
