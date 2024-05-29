@@ -17,4 +17,9 @@ public class ModToolTiers {
                     ModTags.Blocks.NEEDS_SAPPHIRE_TOOL, () -> Ingredient.of(ModItems.SAPPHIRE.get())),
             new ResourceLocation(PixelPioneer.MOD_ID, "sapphire"), List.of(Tiers.NETHERITE), List.of());
 
+    public static final Tier RUBY = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 1500, 5f, 4f, 25,
+                    ModTags.Blocks.NEEDS_RUBY_TOOL, () -> Ingredient.of(ModItems.RUBY.get())),
+            new ResourceLocation(PixelPioneer.MOD_ID, "ruby"), List.of(Tiers.NETHERITE), List.of());
+
 }

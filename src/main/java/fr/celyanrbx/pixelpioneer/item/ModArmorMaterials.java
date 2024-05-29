@@ -10,8 +10,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SAPPHIRE("sapphire", 26, new int[]{ 5, 7, 5, 4 }, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.SAPPHIRE.get()));
+    SAPPHIRE("sapphire",26, new int[]{ 5, 7, 5, 4 }, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.SAPPHIRE.get())),
+    RUBY("ruby", 26, new int[]{ 5, 7, 5, 4 }, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.RUBY.get()));
 
     private final String name;
     private final int durabilityMultiplier;

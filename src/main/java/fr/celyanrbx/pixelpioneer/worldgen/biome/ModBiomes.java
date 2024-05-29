@@ -1,7 +1,6 @@
 package fr.celyanrbx.pixelpioneer.worldgen.biome;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.entity.ModEntities;
 import fr.celyanrbx.pixelpioneer.sound.ModSounds;
 import fr.celyanrbx.pixelpioneer.worldgen.ModPlacedFeatures;
 import net.minecraft.core.registries.Registries;
@@ -35,7 +34,6 @@ public class ModBiomes {
 
     public static Biome testBiome(BootstapContext<Biome> context) {
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
-        spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.RHINO.get(), 2, 3, 5));
 
         spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.WOLF, 5, 4, 4));
 

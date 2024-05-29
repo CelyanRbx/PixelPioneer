@@ -4,7 +4,6 @@ import fr.celyanrbx.pixelpioneer.PixelPioneer;
 import fr.celyanrbx.pixelpioneer.block.entity.ModBlockEntities;
 import fr.celyanrbx.pixelpioneer.block.entity.renderer.GemPolishingBlockEntityRenderer;
 import fr.celyanrbx.pixelpioneer.entity.client.ModModelLayers;
-import fr.celyanrbx.pixelpioneer.entity.client.RhinoModel;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
@@ -18,8 +17,6 @@ import net.minecraftforge.fml.common.Mod;
 public class ModEventBusClientEvents {
     @SubscribeEvent
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
-        event.registerLayerDefinition(ModModelLayers.RHINO_LAYER, RhinoModel::createBodyLayer);
-
         event.registerLayerDefinition(ModModelLayers.PINE_BOAT_LAYER, BoatModel::createBodyModel);
         event.registerLayerDefinition(ModModelLayers.PINE_CHEST_BOAT_LAYER, ChestBoatModel::createBodyModel);
     }

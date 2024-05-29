@@ -6,6 +6,27 @@
     "pixelpioneer:deepslate_sapphire_ore",
     "pixelpioneer:nether_sapphire_ore",
     "pixelpioneer:end_stone_sapphire_ore",
-    "pixelpioneer:sound_block"
+    "pixelpioneer:ruby_block",
+    "pixelpioneer:raw_ruby_block",
+    "pixelpioneer:ruby_ore",
+    "pixelpioneer:deepslate_ruby_ore",
+    "pixelpioneer:nether_ruby_ore",
+    "pixelpioneer:end_stone_ruby_ore",
+    "pixelpioneer:sapphire_door",
+    "pixelpioneer:sapphire_trapdoor",
+    "pixelpioneer:sapphire_pressure_plate",
+    "pixelpioneer:sapphire_stairs",
+    "pixelpioneer:sapphire_slab",
+    "pixelpioneer:sapphire_button",
+    "pixelpioneer:sapphire_fence",
+    "pixelpioneer:sapphire_fence_gate",
+    "pixelpioneer:ruby_door",
+    "pixelpioneer:ruby_trapdoor",
+    "pixelpioneer:ruby_pressure_plate",
+    "pixelpioneer:ruby_stairs",
+    "pixelpioneer:ruby_slab",
+    "pixelpioneer:ruby_button",
+    "pixelpioneer:ruby_fence",
+    "pixelpioneer:ruby_fence_gate"
   ]
 }

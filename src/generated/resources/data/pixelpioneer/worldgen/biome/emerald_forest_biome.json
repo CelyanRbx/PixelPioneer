@@ -105,12 +105,6 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "pixelpioneer:rhino",
-        "maxCount": 5,
-        "minCount": 3,
-        "weight": 2
-      },
-      {
         "type": "minecraft:wolf",
         "maxCount": 4,
         "minCount": 4,

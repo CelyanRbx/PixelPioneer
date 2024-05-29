@@ -14,12 +14,13 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
-import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
+
+import static net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition.hasBlockStateProperties;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
     public ModBlockLootTables() {
@@ -30,7 +31,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+
+        this.dropSelf(ModBlocks.RUBY_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_RUBY_BLOCK.get());
 
         this.add(ModBlocks.SAPPHIRE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
@@ -40,6 +43,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
         this.add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+
+        this.add(ModBlocks.RUBY_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+    this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+        this.add(ModBlocks.NETHER_RUBY_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.NETHER_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+        this.add(ModBlocks.END_STONE_RUBY_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
 
         this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
         this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
@@ -54,19 +66,29 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.SAPPHIRE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
 
-        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
-                .hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
+        this.dropSelf(ModBlocks.RUBY_STAIRS.get());
+        this.dropSelf(ModBlocks.RUBY_BUTTON.get());
+        this.dropSelf(ModBlocks.RUBY_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.RUBY_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.RUBY_FENCE.get());
+        this.dropSelf(ModBlocks.RUBY_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.RUBY_WALL.get());
+
+        this.add(ModBlocks.RUBY_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RUBY_SLAB.get()));
+        this.add(ModBlocks.RUBY_DOOR.get(),
+                block -> createDoorTable(ModBlocks.RUBY_DOOR.get()));
+
+        LootItemCondition.Builder lootitemcondition$builder = hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCropBlock.AGE, 5));
 
         this.add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(), ModItems.STRAWBERRY.get(),
                 ModItems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
 
 
-        LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
-                .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+        LootItemCondition.Builder lootitemcondition$builder2 = hasBlockStateProperties(ModBlocks.CORN_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 7))
-                .or(LootItemBlockStatePropertyCondition
-                        .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                .or(hasBlockStateProperties(ModBlocks.CORN_CROP.get())
                         .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8)));
 
         // LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition

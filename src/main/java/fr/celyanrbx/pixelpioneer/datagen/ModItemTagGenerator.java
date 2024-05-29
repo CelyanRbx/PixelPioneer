@@ -25,7 +25,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.SAPPHIRE_HELMET.get(),
                         ModItems.SAPPHIRE_CHESTPLATE.get(),
                         ModItems.SAPPHIRE_LEGGINGS.get(),
-                        ModItems.SAPPHIRE_BOOTS.get());
+                        ModItems.SAPPHIRE_BOOTS.get(),
+                        ModItems.RUBY_HELMET.get(),
+                        ModItems.RUBY_CHESTPLATE.get(),
+                        ModItems.RUBY_LEGGINGS.get(),
+                        ModItems.RUBY_BOOTS.get());
 
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get());

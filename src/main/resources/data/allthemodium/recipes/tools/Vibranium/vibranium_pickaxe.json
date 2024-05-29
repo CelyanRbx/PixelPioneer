@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "v": {
+      "item": "allthemodium:vibranium_plate"
+    },
+    "r": {
+      "item": "allthemodium:vibranium_rod"
+    }
+  },
+  "pattern": [
+    "vrv",
+    " r ",
+    " r "
+  ],
+  "result": {
+    "item": "allthemodium:vibranium_pickaxe"
+  },
+  "show_notification": true
+}

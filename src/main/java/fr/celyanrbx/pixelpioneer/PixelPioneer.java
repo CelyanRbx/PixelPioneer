@@ -5,7 +5,6 @@ import fr.celyanrbx.pixelpioneer.block.ModBlocks;
 import fr.celyanrbx.pixelpioneer.block.entity.ModBlockEntities;
 import fr.celyanrbx.pixelpioneer.entity.ModEntities;
 import fr.celyanrbx.pixelpioneer.entity.client.ModBoatRenderer;
-import fr.celyanrbx.pixelpioneer.entity.client.RhinoRenderer;
 import fr.celyanrbx.pixelpioneer.item.ModCreativeModTabs;
 import fr.celyanrbx.pixelpioneer.item.ModItems;
 import fr.celyanrbx.pixelpioneer.loot.ModLootModifiers;
@@ -20,7 +19,6 @@ import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -92,7 +90,6 @@ public class PixelPioneer {
         public static void onClientSetup(FMLClientSetupEvent event) {
             Sheets.addWoodType(ModWoodTypes.PINE);
 
-            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
             EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
             EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 

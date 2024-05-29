@@ -13,8 +13,6 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCon
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
 
-import static fr.celyanrbx.pixelpioneer.block.ModBlocks.BLOCKS;
-
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifiersProvider(PackOutput output) {
         super(output, PixelPioneer.MOD_ID);
@@ -28,6 +26,9 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("pine_cone_from_creeper", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build() }, ModItems.PINE_CONE.get()));
+
+        add("coal_briquette_from_creeper", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build() }, ModItems.COAL_BRIQUETTE.get()));
 
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build() }, ModItems.METAL_DETECTOR.get()));

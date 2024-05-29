@@ -45,8 +45,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.RAW_SAPPHIRE);
 
+        simpleItem(ModItems.RUBY);
+        simpleItem(ModItems.RAW_RUBY);
+
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PINE_CONE);
+        simpleItem(ModItems.COAL_BRIQUETTE);
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.STRAWBERRY_SEEDS);
 
@@ -57,16 +61,29 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
+        simpleBlockItem(ModBlocks.RUBY_DOOR);
+
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
         buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
         wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
+
+        fenceItem(ModBlocks.RUBY_FENCE, ModBlocks.RUBY_BLOCK);
+        buttonItem(ModBlocks.RUBY_BUTTON, ModBlocks.RUBY_BLOCK);
+        wallItem(ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK);
 
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_STAIRS);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_SLAB);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
 
+        evenSimplerBlockItem(ModBlocks.RUBY_STAIRS);
+        evenSimplerBlockItem(ModBlocks.RUBY_SLAB);
+        evenSimplerBlockItem(ModBlocks.RUBY_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.RUBY_FENCE_GATE);
+
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
+
+        trapdoorItem(ModBlocks.RUBY_TRAPDOOR);
 
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_PICKAXE);
@@ -74,14 +91,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SAPPHIRE_SHOVEL);
         handheldItem(ModItems.SAPPHIRE_HOE);
 
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+        handheldItem(ModItems.RUBY_HOE);
+
         trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
 
-        simpleBlockItemBlockTexture(ModBlocks.CATMINT);
+        trimmedArmorItem(ModItems.RUBY_HELMET);
+        trimmedArmorItem(ModItems.RUBY_CHESTPLATE);
+        trimmedArmorItem(ModItems.RUBY_LEGGINGS);
+        trimmedArmorItem(ModItems.RUBY_BOOTS);
 
-        withExistingParent(ModItems.RHINO_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        simpleBlockItemBlockTexture(ModBlocks.CATMINT);
 
         simpleItem(ModItems.PINE_SIGN);
         simpleItem(ModItems.PINE_HANGING_SIGN);
