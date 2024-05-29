@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "pixelpioneer:ruby"
+    }
+  },
+  "pattern": [
+    "r r",
+    "rrr",
+    "rrr"
+  ],
+  "result": {
+    "item": "pixelpioneer:ruby_chestplate"
+  },
+  "show_notification": true
+}

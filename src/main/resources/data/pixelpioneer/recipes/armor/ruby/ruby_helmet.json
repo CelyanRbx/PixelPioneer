@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "pixelpioneer:ruby"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "r r",
+    "   "
+  ],
+  "result": {
+    "item": "pixelpioneer:ruby_helmet"
+  },
+  "show_notification": true
+}
