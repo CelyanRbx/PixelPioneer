@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pixelpioneer",
+  "key": {
+    "b": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "bb",
+    "bb"
+  ],
+  "result": {
+    "count": 2,
+    "item": "pixelpioneer:sapphire_trapdoor"
+  },
+  "show_notification": true
+}

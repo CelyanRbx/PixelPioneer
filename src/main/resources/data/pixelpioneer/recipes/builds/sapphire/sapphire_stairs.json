@@ -3,19 +3,17 @@
   "category": "pixelpioneer",
   "key": {
     "b": {
-      "item": "minecraft:white_concrete"
-    },
-    "j": {
-      "item": "minecraft:jukebox"
+      "item": "pixelpioneer:sapphire"
     }
   },
   "pattern": [
-    "bbb",
-    "bjb",
+    "b  ",
+    "bb ",
     "bbb"
   ],
   "result": {
-    "item": "pixelpioneer:sound_block"
+    "count": 4,
+    "item": "pixelpioneer:sapphire_stairs"
   },
   "show_notification": true
 }
