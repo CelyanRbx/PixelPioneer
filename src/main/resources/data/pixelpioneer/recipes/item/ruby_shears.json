@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "pixelpioneer:ruby"
+    }
+  },
+  "pattern": [
+    "   ",
+    " r ",
+    "r  "
+  ],
+  "result": {
+    "item": "pixelpioneer:ruby_shears"
+  },
+  "show_notification": true
+}
