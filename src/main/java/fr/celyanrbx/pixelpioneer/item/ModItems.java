@@ -5,6 +5,7 @@ import fr.celyanrbx.pixelpioneer.block.ModBlocks;
 import fr.celyanrbx.pixelpioneer.entity.custom.ModBoatEntity;
 import fr.celyanrbx.pixelpioneer.item.custom.*;
 import fr.celyanrbx.pixelpioneer.sound.ModSounds;
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -23,6 +24,11 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD = ITEMS.register("emerald",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_EMERALD = ITEMS.register("raw_emerald",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
@@ -59,6 +65,20 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.RUBY, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
             () -> new HoeItem(ModToolTiers.RUBY, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(ModToolTiers.EMERALD, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.EMERALD, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
+            () -> new AxeItem(ModToolTiers.EMERALD, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
+            () -> new ShovelItem(ModToolTiers.EMERALD, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
+            () -> new HoeItem(ModToolTiers.EMERALD, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_SHEARS = ITEMS.register("emerald_shears",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
             () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));

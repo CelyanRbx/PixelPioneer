@@ -24,6 +24,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
 
+                        pOutput.accept(ModItems.EMERALD.get());
+                        pOutput.accept(ModItems.RAW_EMERALD.get());
+
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         pOutput.accept(ModItems.STRAWBERRY.get());
@@ -44,6 +47,14 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RUBY_AXE.get());
                         pOutput.accept(ModItems.RUBY_SHOVEL.get());
                         pOutput.accept(ModItems.RUBY_HOE.get());
+
+                        pOutput.accept(ModItems.EMERALD_SWORD.get());
+                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
+                        pOutput.accept(ModItems.EMERALD_AXE.get());
+                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
+                        pOutput.accept(ModItems.EMERALD_HOE.get());
+
+                        pOutput.accept(ModItems.EMERALD_SHEARS.get());
 
                         pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
                         pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());

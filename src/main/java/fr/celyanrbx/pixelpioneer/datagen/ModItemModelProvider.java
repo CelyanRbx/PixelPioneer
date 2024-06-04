@@ -97,6 +97,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.RUBY_SHOVEL);
         handheldItem(ModItems.RUBY_HOE);
 
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_HOE);
+
+        handheldItem(ModItems.EMERALD_SHEARS);
+
         trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);

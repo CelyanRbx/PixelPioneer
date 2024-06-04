@@ -1,6 +1,7 @@
-package fr.celyanrbx.pixelpioneer.compat;
+package fr.celyanrbx.pixelpioneer.compat.jei;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
+import fr.celyanrbx.pixelpioneer.compat.GemPolishingCategory;
 import fr.celyanrbx.pixelpioneer.recipe.GemPolishingRecipe;
 import fr.celyanrbx.pixelpioneer.screen.GemPolishingStationScreen;
 import mezz.jei.api.IModPlugin;

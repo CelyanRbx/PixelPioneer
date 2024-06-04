@@ -77,6 +77,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
                 .add(ModBlocks.RUBY_BLOCK.get());
 
+        this.tag(ModTags.Blocks.NEEDS_EMERALD_TOOL);
+
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SAPPHIRE_FENCE.get());
         this.tag(BlockTags.FENCE_GATES)
