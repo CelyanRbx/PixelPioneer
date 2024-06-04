@@ -1,0 +1,10 @@
+{
+  "type": "pixelpioneer:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:items/emerald_shears"
+    }
+  ],
+  "item": "pixelpioneer:emerald_shears"
+}

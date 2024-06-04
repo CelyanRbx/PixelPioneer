@@ -1,21 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
-    "s": {
-      "item": "minecraft:stick"
-    },
     "r": {
       "item": "pixelpioneer:emerald"
     }
   },
   "pattern": [
-    "r",
-    "s",
-    "s"
+    "r r",
+    "rrr",
+    "rrr"
   ],
   "result": {
-    "item": "pixelpioneer:emerald_shovel"
+    "item": "pixelpioneer:emerald_chestplate"
   },
   "show_notification": true
 }

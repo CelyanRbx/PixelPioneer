@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pixelpioneer:block/end_stone_emerald_ore"
+  }
+}
