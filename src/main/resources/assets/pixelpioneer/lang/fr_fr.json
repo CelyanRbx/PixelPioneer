@@ -31,7 +31,9 @@
   "item.pixelpioneer.emerald_shovel": "Pelle en émeraude",
   "item.pixelpioneer.emerald_hoe": "Houe en émeraude",
 
-  "item.pixelpioneer.emerald_shears": "Cisaille en émeraude",
+  "item.pixelpioneer.sapphire_shears": "Cisailles en saphir",
+  "item.pixelpioneer.ruby_shears": "Cisailles en ruby",
+  "item.pixelpioneer.emerald_shears": "Cisailles en émeraude",
 
   "item.pixelpioneer.sapphire_helmet": "Casque en saphir",
   "item.pixelpioneer.sapphire_chestplate": "Plastron en saphir",
@@ -43,6 +45,11 @@
   "item.pixelpioneer.ruby_leggings": "Jambières en rubis",
   "item.pixelpioneer.ruby_boots": "Bottes en rubis",
 
+  "item.pixelpioneer.emerald_helmet": "Casque en émeraude",
+  "item.pixelpioneer.emerald_chestplate": "Plastron en émeraude",
+  "item.pixelpioneer.emerald_leggings": "Jambières en émeraude",
+  "item.pixelpioneer.emerald_boots": "Bottes en émeraude",
+
   "item.pixelpioneer.strawberry_seeds": "Graines de fraise",
 
   "item.pixelpioneer.corn": "Maïs",
@@ -53,8 +60,6 @@
 
   "item.pixelpioneer.pine_boat": "Bateau en pin",
   "item.pixelpioneer.pine_chest_boat": "Bateau de stockage en pin",
-
-  "item.pixelpioneer.dice": "Dé",
 
   "block.pixelpioneer.sapphire_block": "Bloc de saphir",
   "block.pixelpioneer.raw_sapphire_block": "Bloc de saphir brut",
@@ -71,6 +76,11 @@
   "block.pixelpioneer.deepslate_ruby_ore": "Minerai de rubis des abîmes",
   "block.pixelpioneer.end_stone_ruby_ore": "Minerai de rubis de l'end",
   "block.pixelpioneer.nether_ruby_ore": "Minerai de rubis du nether",
+
+  "block.pixelpioneer.emerald_ore": "Minerai d'émeraude",
+  "block.pixelpioneer.deepslate_emerald_ore": "Minerai d'émeraude des abîmes",
+  "block.pixelpioneer.end_stone_emerald_ore": "Minerai d'émeraude de l'end",
+  "block.pixelpioneer.nether_emerald_ore": "Minerai d'émeraude du nether",
 
   "block.pixelpioneer.sapphire_stairs": "Escalier en saphir",
   "block.pixelpioneer.sapphire_slab": "Dalle en saphir",
