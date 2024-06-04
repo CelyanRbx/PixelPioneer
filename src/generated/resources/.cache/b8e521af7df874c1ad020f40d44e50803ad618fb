@@ -1,6 +1,7 @@
-// 1.20.1	2024-05-29T07:21:29.3015377	Global Loot Modifiers : pixelpioneer
-727524d089331739d725a1e0ff30560e888bb943 data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2024-06-04T12:23:42.3149075	Global Loot Modifiers : pixelpioneer
+583aa49dc996e696fffd8bfd985d0a7c04e1f5fd data/forge/loot_modifiers/global_loot_modifiers.json
 0f4e667d5424e8d1f8bb9a10768b1dff12b8ad00 data/pixelpioneer/loot_modifiers/coal_briquette_from_creeper.json
+e47d5bda486d4e44f3a14255a649887703b20fac data/pixelpioneer/loot_modifiers/leaves_from_emerald_shears.json
 904464c378e45a8b95202f3e2237a3b03ff707b9 data/pixelpioneer/loot_modifiers/metal_detector_from_jungle_temples.json
 2fbeb5f0829fee4da501a1f1fccbb6e0c081f97f data/pixelpioneer/loot_modifiers/metal_detector_from_suspicious_sand.json
 c06d71b415b9ca8af07665a2ffee9dc12046b7f6 data/pixelpioneer/loot_modifiers/pine_cone_from_creeper.json
