@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "r": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "rrr",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "item": "pixelpioneer:emerald_pickaxe"
+  },
+  "show_notification": true
+}

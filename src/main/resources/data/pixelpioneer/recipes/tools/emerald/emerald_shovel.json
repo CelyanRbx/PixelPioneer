@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "r": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "r",
+    "s",
+    "s"
+  ],
+  "result": {
+    "item": "pixelpioneer:emerald_shovel"
+  },
+  "show_notification": true
+}

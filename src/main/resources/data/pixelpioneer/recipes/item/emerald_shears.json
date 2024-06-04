@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "   ",
+    " r ",
+    "r  "
+  ],
+  "result": {
+    "item": "pixelpioneer:emerald_shears"
+  },
+  "show_notification": true
+}
