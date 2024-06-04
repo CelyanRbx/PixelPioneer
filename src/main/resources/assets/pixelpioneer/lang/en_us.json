@@ -31,6 +31,8 @@
   "item.pixelpioneer.emerald_shovel": "Emerald Shovel",
   "item.pixelpioneer.emerald_hoe": "Emerald Hoe",
 
+  "item.pixelpioneer.sapphire_shears": "Sapphire Shears",
+  "item.pixelpioneer.ruby_shears": "Ruby Shears",
   "item.pixelpioneer.emerald_shears": "Emerald Shears",
 
   "item.pixelpioneer.sapphire_helmet": "Sapphire Helmet",
@@ -43,6 +45,11 @@
   "item.pixelpioneer.ruby_leggings": "Ruby Leggings",
   "item.pixelpioneer.ruby_boots": "Ruby Boots",
 
+  "item.pixelpioneer.emerald_helmet": "Emerald Helmet",
+  "item.pixelpioneer.emerald_chestplate": "Emerald Chestplate",
+  "item.pixelpioneer.emerald_leggings": "Emerald Leggings",
+  "item.pixelpioneer.emerald_boots": "Emerald Boots",
+
   "item.pixelpioneer.strawberry_seeds": "Strawberry Seeds",
 
   "item.pixelpioneer.corn": "Corn",
@@ -54,13 +61,14 @@
   "item.pixelpioneer.pine_boat": "Pine Boat",
   "item.pixelpioneer.pine_chest_boat": "Pine Chest Boat",
 
-  "item.pixelpioneer.dice": "Dice",
-
   "block.pixelpioneer.sapphire_block": "Block Of Sapphire",
   "block.pixelpioneer.raw_sapphire_block": "Block Of Raw Sapphire",
 
   "block.pixelpioneer.ruby_block": "Block Of Ruby",
   "block.pixelpioneer.raw_ruby_block": "Block Of Raw Ruby",
+
+  "block.pixelpioneer.emerald_block": "Block Of Emerald",
+  "block.pixelpioneer.raw_emerald_block": "Block Of Raw Emerald",
 
   "block.pixelpioneer.sapphire_ore": "Sapphire Ore",
   "block.pixelpioneerdeepslate_sapphire_ore": "Deepslate Sapphire Ore",
@@ -71,6 +79,11 @@
   "block.pixelpioneerdeepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.pixelpioneer.end_stone_ruby_ore": "Endstone Ruby Ore",
   "block.pixelpioneer.nether_ruby_ore": "Nether Ruby Ore",
+
+  "block.pixelpioneer.emerald_ore": "Emerald Ore",
+  "block.pixelpioneerdeepslate_emerald_ore": "Deepslate Emerald Ore",
+  "block.pixelpioneer.end_stone_emerald_ore": "Endstone Emerald Ore",
+  "block.pixelpioneer.nether_emerald_ore": "Nether Emerald Ore",
 
   "block.pixelpioneer.sapphire_stairs": "Sapphire Stairs",
   "block.pixelpioneer.sapphire_slab": "Sapphire Slab",
