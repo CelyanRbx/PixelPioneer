@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "pixelpioneer:sapphire"
+    }
+  },
+  "pattern": [
+    "   ",
+    " r ",
+    "r  "
+  ],
+  "result": {
+    "item": "pixelpioneer:sapphire_shears"
+  },
+  "show_notification": true
+}
