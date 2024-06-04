@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-29T07:14:36.6842393	Tags for minecraft:block mod id pixelpioneer
+// 1.20.1	2024-06-03T20:00:08.247705	Tags for minecraft:block mod id pixelpioneer
 3a46d491daa49330568e4c1e31649baa027b394e data/forge/tags/blocks/needs_netherite_tool.json
 5c81b7656261ca9c8d2b2d9874d65f2aeee4a73d data/minecraft/tags/blocks/fences.json
 fd62282376e6716bdc026938a21df857d7103a55 data/minecraft/tags/blocks/fence_gates.json
@@ -10,4 +10,6 @@ f33a21dab62ca5586b60f11cf81e9404b0f08ccd data/minecraft/tags/blocks/needs_diamon
 9b2354f27a6b0e18a836bcee411c96c38c256108 data/minecraft/tags/blocks/planks.json
 6dae2719f1b78d047083f3f753508c2c943d646d data/minecraft/tags/blocks/walls.json
 607f3242474de67c48bbb75dcc5ef4dc81f79177 data/pixelpioneer/tags/blocks/metal_detector_valuables.json
-cf6fc444dd026f96a9590a0caf2dde13cd855d50 data/pixelpioneer/tags/blocks/needs_sapphire_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/pixelpioneer/tags/blocks/needs_emerald_tool.json
+9b15cd76d1e0314df73bf3edf54c5e8ae125fb61 data/pixelpioneer/tags/blocks/needs_ruby_tool.json
+65ba2d4f339ac707fe53f6577e38112f47afad9e data/pixelpioneer/tags/blocks/needs_sapphire_tool.json

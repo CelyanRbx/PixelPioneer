@@ -1,10 +1,16 @@
-// 1.20.1	2024-05-29T11:37:16.0990587	Item Models: pixelpioneer
+// 1.20.1	2024-06-03T13:21:45.2688462	Item Models: pixelpioneer
 ee367e21b26c13e4cde51f4ea87801c51717c288 assets/pixelpioneer/models/item/bar_brawl_music_disc.json
 c79da4fc73fd4412e7a9509363a167e31759f6aa assets/pixelpioneer/models/item/catmint.json
 336557c88b031d2228f63b292c2c8f94cd307730 assets/pixelpioneer/models/item/coal_briquette.json
 2ba86842db9fd7be21762302eaea2091e9b3d1cc assets/pixelpioneer/models/item/corn.json
 642444c0c226ceb3119e3b17a746392296f04aad assets/pixelpioneer/models/item/corn_seeds.json
 b3e11a7194bf9211e756e1daca2ee82a9888aba1 assets/pixelpioneer/models/item/dice.json
+90b36f047cbc2c238349b353b5912d1e4aa6c451 assets/pixelpioneer/models/item/emerald_axe.json
+4ce87081a9e45ec9660c993f986d07cd60147eda assets/pixelpioneer/models/item/emerald_hoe.json
+0301bf3fe020cd6dc16217eed66d7bf7352c6c06 assets/pixelpioneer/models/item/emerald_pickaxe.json
+6dec2e6973229c5f8720e5c09a16146e1fe05cc1 assets/pixelpioneer/models/item/emerald_shears.json
+ba09e90e80742f613844d047161b5f73ff48f573 assets/pixelpioneer/models/item/emerald_shovel.json
+e1b4fefeadbbd4d6e9f8a4f5bfb960b8b4fb56b9 assets/pixelpioneer/models/item/emerald_sword.json
 cce6dfa3a6c4c6c2cd8a96e43096eb3e9de70df7 assets/pixelpioneer/models/item/metal_detector.json
 c3188e07a3075a2fde80d31ba24bb7168c4d0dcd assets/pixelpioneer/models/item/pine_boat.json
 7a9788ee603b619041d3ddd6dcea1a90f4d958a0 assets/pixelpioneer/models/item/pine_chest_boat.json
