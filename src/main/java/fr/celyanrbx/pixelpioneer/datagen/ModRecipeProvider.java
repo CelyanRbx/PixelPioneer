@@ -19,6 +19,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             ModBlocks.SAPPHIRE_ORE.get(), ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModBlocks.NETHER_SAPPHIRE_ORE.get(),
             ModBlocks.END_STONE_SAPPHIRE_ORE.get());
 
+    private static final List<ItemLike> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY.get(),
+            ModBlocks.RUBY_ORE.get(), ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModBlocks.NETHER_RUBY_ORE.get(),
+            ModBlocks.END_STONE_RUBY_ORE.get());
+
+    private static final List<ItemLike> EMERALD_SMELTABLES = List.of(ModItems.RAW_EMERALD.get(),
+            ModBlocks.EMERALD_ORE.get(), ModBlocks.DEEPSLATE_EMERALD_ORE.get(), ModBlocks.NETHER_EMERALD_ORE.get(),
+            ModBlocks.END_STONE_EMERALD_ORE.get());
+
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
@@ -27,6 +35,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         oreSmelting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 200, "sapphire");
         oreBlasting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 100, "sapphire");
+        oreSmelting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f, 200, "ruby");
+        oreBlasting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f, 100, "ruby");
+        oreSmelting(pWriter, EMERALD_SMELTABLES, RecipeCategory.MISC, ModItems.EMERALD.get(), 0.25f, 200, "emerald");
+        oreBlasting(pWriter, EMERALD_SMELTABLES, RecipeCategory.MISC, ModItems.EMERALD.get(), 0.25f, 100, "emerald");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
                 .pattern("SSS")

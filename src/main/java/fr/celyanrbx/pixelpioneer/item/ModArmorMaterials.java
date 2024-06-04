@@ -14,7 +14,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     SAPPHIRE("sapphire",26, new int[]{ 5, 7, 5, 4 }, 25,
             ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.SAPPHIRE.get())),
     RUBY("ruby", 26, new int[]{ 5, 7, 5, 4 }, 25,
-            ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.RUBY.get()));
+            ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.RUBY.get())),
+    EMERALD("emerald", 26, new int[]{ 5, 7, 5, 4 }, 25,
+            ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.EMERALD.get()));
 
     private final String name;
     private final int durabilityMultiplier;

@@ -27,6 +27,16 @@
     "pixelpioneer:ruby_slab",
     "pixelpioneer:ruby_button",
     "pixelpioneer:ruby_fence",
-    "pixelpioneer:ruby_fence_gate"
+    "pixelpioneer:ruby_fence_gate",
+    "pixelpioneer:emerald_ore",
+    "pixelpioneer:deepslate_emerald_ore",
+    "pixelpioneer:nether_emerald_ore",
+    "pixelpioneer:end_stone_emerald_ore",
+    "pixelpioneer:emerald_block",
+    "pixelpioneer:raw_emerald_block",
+    "pixelpioneer:emerald_ore",
+    "pixelpioneer:deepslate_emerald_ore",
+    "pixelpioneer:nether_emerald_ore",
+    "pixelpioneer:end_stone_emerald_ore"
   ]
 }

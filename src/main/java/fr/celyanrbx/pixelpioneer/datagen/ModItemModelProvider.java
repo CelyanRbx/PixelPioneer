@@ -48,6 +48,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RUBY);
         simpleItem(ModItems.RAW_RUBY);
 
+        simpleItem(ModItems.EMERALD);
+        simpleItem(ModItems.RAW_EMERALD);
+
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PINE_CONE);
         simpleItem(ModItems.COAL_BRIQUETTE);
@@ -103,6 +106,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.EMERALD_SHOVEL);
         handheldItem(ModItems.EMERALD_HOE);
 
+        handheldItem(ModItems.SAPPHIRE_SHEARS);
+        handheldItem(ModItems.RUBY_SHEARS);
         handheldItem(ModItems.EMERALD_SHEARS);
 
         trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
@@ -115,6 +120,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.RUBY_LEGGINGS);
         trimmedArmorItem(ModItems.RUBY_BOOTS);
 
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
+
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
 
         simpleItem(ModItems.PINE_SIGN);
@@ -123,7 +133,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PINE_BOAT);
         simpleItem(ModItems.PINE_CHEST_BOAT);
 
-        simpleItem(ModItems.DICE);
         saplingItem(ModBlocks.PINE_SAPLING);
     }
 

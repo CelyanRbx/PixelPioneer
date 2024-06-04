@@ -1,6 +1,10 @@
 {
   "values": [
     "pixelpioneer:sapphire_ore",
+    "#forge:ores",
+    "pixelpioneer:ruby_ore",
+    "#forge:ores",
+    "pixelpioneer:emerald_ore",
     "#forge:ores"
   ]
 }

@@ -4,7 +4,8 @@
     "pixelpioneer:pine_cone_from_creeper",
     "pixelpioneer:metal_detector_from_suspicious_sand",
     "pixelpioneer:coal_briquette_from_creeper",
-    "pixelpioneer:metal_detector_from_jungle_temples"
+    "pixelpioneer:metal_detector_from_jungle_temples",
+    "pixelpioneer:leaves_from_emerald_shears"
   ],
   "replace": false
 }

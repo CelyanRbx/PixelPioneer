@@ -77,8 +77,12 @@ public class ModItems {
     public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
             () -> new HoeItem(ModToolTiers.EMERALD, 0, 0, new Item.Properties()));
 
+    public static final RegistryObject<Item> SAPPHIRE_SHEARS = ITEMS.register("sapphire_shears",
+            () -> new ShearsItem(new Item.Properties().durability(238 )));
+    public static final RegistryObject<Item> RUBY_SHEARS = ITEMS.register("ruby_shears",
+            () -> new ShearsItem(new Item.Properties().durability(238 )));
     public static final RegistryObject<Item> EMERALD_SHEARS = ITEMS.register("emerald_shears",
-            () -> new Item(new Item.Properties()));
+            () -> new ShearsItem(new Item.Properties().durability(238 )));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
             () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -97,6 +101,15 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
             () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
@@ -118,9 +131,6 @@ public class ModItems {
             () -> new ModBoatItem(false, ModBoatEntity.Type.PINE, new Item.Properties()));
     public static final RegistryObject<Item> PINE_CHEST_BOAT = ITEMS.register("pine_chest_boat",
             () -> new ModBoatItem(true, ModBoatEntity.Type.PINE, new Item.Properties()));
-
-    public static final RegistryObject<Item> DICE = ITEMS.register("dice",
-            () -> new DiceItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

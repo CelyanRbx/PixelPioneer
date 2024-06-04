@@ -21,7 +21,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES);
+                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES)
+                .add(ModBlocks.RUBY_ORE.get()).addTag(Tags.Blocks.ORES)
+                .add(ModBlocks.EMERALD_ORE.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SAPPHIRE_BLOCK.get(),
@@ -51,21 +53,34 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.RUBY_SLAB.get(),
                         ModBlocks.RUBY_BUTTON.get(),
                         ModBlocks.RUBY_FENCE.get(),
-                        ModBlocks.RUBY_FENCE_GATE.get());
+                        ModBlocks.RUBY_FENCE_GATE.get(),
+                        ModBlocks.EMERALD_ORE.get(),
+                        ModBlocks.DEEPSLATE_EMERALD_ORE.get(),
+                        ModBlocks.NETHER_EMERALD_ORE.get(),
+                        ModBlocks.END_STONE_EMERALD_ORE.get(),
+                        ModBlocks.EMERALD_BLOCK.get(),
+                        ModBlocks.RAW_EMERALD_BLOCK.get(),
+                        ModBlocks.EMERALD_ORE.get(),
+                        ModBlocks.DEEPSLATE_EMERALD_ORE.get(),
+                        ModBlocks.NETHER_EMERALD_ORE.get(),
+                        ModBlocks.END_STONE_EMERALD_ORE.get());
 
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SAPPHIRE_BLOCK.get());
                      ModBlocks.RUBY_BLOCK.get();
+                     ModBlocks.EMERALD_BLOCK.get();
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                      ModBlocks.RAW_RUBY_BLOCK.get();
+                     ModBlocks.RAW_EMERALD_BLOCK.get();
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                      ModBlocks.NETHER_RUBY_ORE.get();
+                     ModBlocks.NETHER_EMERALD_ORE.get();
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
@@ -77,7 +92,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
                 .add(ModBlocks.RUBY_BLOCK.get());
 
-        this.tag(ModTags.Blocks.NEEDS_EMERALD_TOOL);
+        this.tag(ModTags.Blocks.NEEDS_EMERALD_TOOL)
+                .add(ModBlocks.EMERALD_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SAPPHIRE_FENCE.get());

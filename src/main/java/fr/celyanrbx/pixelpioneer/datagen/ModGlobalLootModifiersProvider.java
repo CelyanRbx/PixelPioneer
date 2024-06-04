@@ -6,6 +6,7 @@ import fr.celyanrbx.pixelpioneer.loot.AddItemModifier;
 import fr.celyanrbx.pixelpioneer.loot.AddSusSandItemModifier;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
@@ -35,6 +36,9 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("metal_detector_from_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.METAL_DETECTOR.get()));
+
+        add("leaves_from_emerald_shears", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("items/emerald_shears")).build() }, ModItems.EMERALD_SHEARS.get()));
 
 
 

@@ -1,7 +1,6 @@
 package fr.celyanrbx.pixelpioneer.entity;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.entity.custom.DiceProjectileEntity;
 import fr.celyanrbx.pixelpioneer.entity.custom.ModBoatEntity;
 import fr.celyanrbx.pixelpioneer.entity.custom.ModChestBoatEntity;
 import net.minecraft.world.entity.EntityType;
@@ -21,11 +20,6 @@ public class ModEntities {
     public static final RegistryObject<EntityType<ModChestBoatEntity>> MOD_CHEST_BOAT =
             ENTITY_TYPES.register("mod_chest_boat", () -> EntityType.Builder.<ModChestBoatEntity>of(ModChestBoatEntity::new, MobCategory.MISC)
                     .sized(1.375f, 0.5625f).build("mod_chest_boat"));
-
-    public static final RegistryObject<EntityType<DiceProjectileEntity>> DICE_PROJECTILE =
-            ENTITY_TYPES.register("dice_projectile", () -> EntityType.Builder.<DiceProjectileEntity>of(DiceProjectileEntity::new, MobCategory.MISC)
-                    .sized(0.5f, 0.5f).build("dice_projectile"));
-
 
 
     public static void register(IEventBus eventBus) {

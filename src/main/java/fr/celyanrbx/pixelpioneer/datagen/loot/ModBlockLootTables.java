@@ -35,6 +35,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RUBY_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_RUBY_BLOCK.get());
 
+        this.dropSelf(ModBlocks.EMERALD_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_EMERALD_BLOCK.get());
+
         this.add(ModBlocks.SAPPHIRE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
         this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
@@ -52,6 +55,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(ModBlocks.NETHER_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
         this.add(ModBlocks.END_STONE_RUBY_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+
+        this.add(ModBlocks.EMERALD_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.EMERALD_ORE.get(), ModItems.RAW_EMERALD.get()));
+        this.add(ModBlocks.DEEPSLATE_EMERALD_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_EMERALD_ORE.get(), ModItems.RAW_EMERALD.get()));
+        this.add(ModBlocks.NETHER_EMERALD_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.NETHER_EMERALD_ORE.get(), ModItems.RAW_EMERALD.get()));
+        this.add(ModBlocks.END_STONE_EMERALD_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.END_STONE_EMERALD_ORE.get(), ModItems.RAW_EMERALD.get()));
 
         this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
         this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());

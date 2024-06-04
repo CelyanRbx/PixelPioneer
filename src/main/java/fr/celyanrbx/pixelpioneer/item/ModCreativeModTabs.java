@@ -27,15 +27,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD.get());
                         pOutput.accept(ModItems.RAW_EMERALD.get());
 
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
-
-                        pOutput.accept(ModItems.STRAWBERRY.get());
-                        pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
-                        pOutput.accept(ModItems.CORN.get());
-                        pOutput.accept(ModItems.CORN_SEEDS.get());
-                        pOutput.accept(ModItems.PINE_CONE.get());
-                        pOutput.accept(ModItems.COAL_BRIQUETTE.get());
-
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
                         pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
                         pOutput.accept(ModItems.SAPPHIRE_AXE.get());
@@ -54,6 +45,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD_SHOVEL.get());
                         pOutput.accept(ModItems.EMERALD_HOE.get());
 
+                        pOutput.accept(ModItems.SAPPHIRE_SHEARS.get());
+                        pOutput.accept(ModItems.RUBY_SHEARS.get());
                         pOutput.accept(ModItems.EMERALD_SHEARS.get());
 
                         pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
@@ -66,21 +59,19 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RUBY_LEGGINGS.get());
                         pOutput.accept(ModItems.RUBY_BOOTS.get());
 
-                        pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
-
-                        pOutput.accept(ModItems.PINE_SIGN.get());
-                        pOutput.accept(ModItems.PINE_HANGING_SIGN.get());
-
-                        pOutput.accept(ModItems.PINE_BOAT.get());
-                        pOutput.accept(ModItems.PINE_CHEST_BOAT.get());
-
-                        pOutput.accept(ModItems.DICE.get());
+                        pOutput.accept(ModItems.EMERALD_HELMET.get());
+                        pOutput.accept(ModItems.EMERALD_CHESTPLATE.get());
+                        pOutput.accept(ModItems.EMERALD_LEGGINGS.get());
+                        pOutput.accept(ModItems.EMERALD_BOOTS.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_EMERALD_BLOCK.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
@@ -91,6 +82,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
                         pOutput.accept(ModBlocks.NETHER_RUBY_ORE.get());
                         pOutput.accept(ModBlocks.END_STONE_RUBY_ORE.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_EMERALD_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_EMERALD_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_EMERALD_ORE.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
@@ -116,9 +112,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.RUBY_DOOR.get());
                         pOutput.accept(ModBlocks.RUBY_TRAPDOOR.get());
 
-                        pOutput.accept(ModBlocks.CATMINT.get());
-                        pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
-
                         pOutput.accept(ModBlocks.PINE_LOG.get());
                         pOutput.accept(ModBlocks.PINE_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_PINE_LOG.get());
@@ -128,7 +121,27 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.PINE_LEAVES.get());
 
                         pOutput.accept(ModBlocks.PINE_SAPLING.get());
+                        pOutput.accept(ModItems.PINE_SIGN.get());
+                        pOutput.accept(ModItems.PINE_HANGING_SIGN.get());
+
+                        pOutput.accept(ModItems.PINE_BOAT.get());
+                        pOutput.accept(ModItems.PINE_CHEST_BOAT.get());
+
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.CORN_SEEDS.get());
+                        pOutput.accept(ModItems.PINE_CONE.get());
+                        pOutput.accept(ModItems.COAL_BRIQUETTE.get());
+
+                        pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
+                        pOutput.accept(ModBlocks.CATMINT.get());
+                        pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
+
                         pOutput.accept(ModBlocks.MOD_PORTAL.get());
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                     })
                     .build());

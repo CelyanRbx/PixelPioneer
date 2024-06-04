@@ -30,6 +30,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RUBY_BLOCK);
         blockWithItem(ModBlocks.RAW_RUBY_BLOCK);
 
+        blockWithItem(ModBlocks.EMERALD_BLOCK);
+        blockWithItem(ModBlocks.RAW_EMERALD_BLOCK);
+
         blockWithItem(ModBlocks.SAPPHIRE_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
         blockWithItem(ModBlocks.END_STONE_SAPPHIRE_ORE);
@@ -39,6 +42,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockWithItem(ModBlocks.END_STONE_RUBY_ORE);
         blockWithItem(ModBlocks.NETHER_RUBY_ORE);
+
+        blockWithItem(ModBlocks.EMERALD_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_EMERALD_ORE);
+        blockWithItem(ModBlocks.END_STONE_EMERALD_ORE);
+        blockWithItem(ModBlocks.NETHER_EMERALD_ORE);
 
         stairsBlock(((StairBlock) ModBlocks.SAPPHIRE_STAIRS.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
         slabBlock(((SlabBlock) ModBlocks.SAPPHIRE_SLAB.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
