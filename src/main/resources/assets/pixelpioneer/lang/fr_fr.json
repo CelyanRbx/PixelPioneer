@@ -2,6 +2,12 @@
   "item.pixelpioneer.sapphire": "Saphir",
   "item.pixelpioneer.raw_sapphire": "Saphir brut",
 
+  "item.pixelpioneer.ruby": "Rubis",
+  "item.pixelpioneer.raw_ruby": "Rubis Brut",
+
+  "item.pixelpioneer.emerald": "Émeraude",
+  "item.pixelpioneer.raw_emerald": "Émeraude Brut",
+
   "item.pixelpioneer.metal_detector": "Détecteur de métaux",
   "item.pixelpioneer.strawberry": "Fraise",
   "item.pixelpioneer.coal_briquette": "Briquette de Charbon",
@@ -19,6 +25,14 @@
   "item.pixelpioneer.ruby_shovel": "Pelle en rubis",
   "item.pixelpioneer.ruby_hoe": "Houe en rubis",
 
+  "item.pixelpioneer.emerald_sword": "Épée en émeraude",
+  "item.pixelpioneer.emerald_pickaxe": "Pioche en émeraude",
+  "item.pixelpioneer.emerald_axe": "Hache en émeraude",
+  "item.pixelpioneer.emerald_shovel": "Pelle en émeraude",
+  "item.pixelpioneer.emerald_hoe": "Houe en émeraude",
+
+  "item.pixelpioneer.emerald_shears": "Cisaille en émeraude",
+
   "item.pixelpioneer.sapphire_helmet": "Casque en saphir",
   "item.pixelpioneer.sapphire_chestplate": "Plastron en saphir",
   "item.pixelpioneer.sapphire_leggings": "Jambières en saphir",
@@ -34,9 +48,6 @@
   "item.pixelpioneer.corn": "Maïs",
   "item.pixelpioneer.corn_seeds": "Graines de maïs",
 
-  "item.pixelpioneer.tomato": "Tomate",
-  "item.pixelpioneer.tomato_seeds": "Graines de Tomate",
-
   "item.pixelpioneer.bar_brawl_music_disc": "Disque",
   "item.pixelpioneer.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
@@ -47,6 +58,9 @@
 
   "block.pixelpioneer.sapphire_block": "Bloc de saphir",
   "block.pixelpioneer.raw_sapphire_block": "Bloc de saphir brut",
+
+  "block.pixelpioneer.ruby_block": "Bloc de rubis",
+  "block.pixelpioneer.raw_ruby_block": "Bloc de rubis brut",
 
   "block.pixelpioneer.sapphire_ore": "Minerai de saphir",
   "block.pixelpioneer.deepslate_sapphire_ore": "Minerai de saphir des abîmes",
@@ -95,12 +109,6 @@
   "block.pixelpioneer.pine_sapling": "Pousse de pin",
 
   "block.pixelpioneer.mod_portal": "Téléporteur",
-
-  "item.pixelpioneer.ruby": "Rubis",
-  "item.pixelpioneer.raw_ruby": "Rubis Brut",
-
-  "block.pixelpioneer.ruby_block": "Bloc de rubis",
-  "block.pixelpioneer.raw_ruby_block": "Bloc de rubis brut",
 
   "tooltip.pixelpioneer.metal_detector.tooltip": "Trouvez des objets de valeur sous terre!",
 
