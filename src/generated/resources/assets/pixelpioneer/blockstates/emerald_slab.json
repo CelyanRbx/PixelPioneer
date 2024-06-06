@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixelpioneer:block/emerald_slab"
+    },
+    "type=double": {
+      "model": "pixelpioneer:block/emerald_block"
+    },
+    "type=top": {
+      "model": "pixelpioneer:block/emerald_slab_top"
+    }
+  }
+}

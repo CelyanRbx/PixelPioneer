@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "pixelpioneer:block/emerald_block",
+    "side": "pixelpioneer:block/emerald_block",
+    "top": "pixelpioneer:block/emerald_block"
+  }
+}
