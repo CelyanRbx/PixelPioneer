@@ -1,16 +1,16 @@
-[00:34:31.812][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 development client modded with platform Forge
-[00:34:31.913][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[00:34:32.115][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin jeitweaker:common
-[00:34:32.120][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin createtweaker:main
-[00:34:32.138][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
-[00:34:32.142][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
-[00:34:32.250][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[00:34:32.255][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[00:34:32.291][INFO][JEITweaker]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
-[00:34:32.291][INFO][JEITweaker]: Running JeiTweaker plugin initialization
-[00:34:32.402][INFO][JEITweaker]: JeiTweaker plugin initialization completed successfully
-[00:34:35.207][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[00:34:35.208][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
-[00:34:35.208][INFO][CraftTweaker]: - 'createtweaker' at version '4.0.9'
-[00:34:35.208][INFO][CraftTweaker]: - 'cyclic' at version '1.12.9'
-[00:34:35.208][INFO][CraftTweaker]: - 'jeitweaker' at version '8.0.6'
+[11:10:07.286][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 development client modded with platform Forge
+[11:10:07.382][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[11:10:07.512][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[11:10:07.517][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[11:10:07.558][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin jeitweaker:common
+[11:10:07.563][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin createtweaker:main
+[11:10:07.663][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[11:10:07.668][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[11:10:07.737][INFO][JEITweaker]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[11:10:07.738][INFO][JEITweaker]: Running JeiTweaker plugin initialization
+[11:10:07.874][INFO][JEITweaker]: JeiTweaker plugin initialization completed successfully
+[11:10:11.182][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[11:10:11.184][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
+[11:10:11.184][INFO][CraftTweaker]: - 'createtweaker' at version '4.0.9'
+[11:10:11.184][INFO][CraftTweaker]: - 'cyclic' at version '1.12.9'
+[11:10:11.185][INFO][CraftTweaker]: - 'jeitweaker' at version '8.0.6'

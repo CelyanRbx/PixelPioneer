@@ -1,14 +1,14 @@
-// 1.20.1	2024-06-04T18:25:28.0714263	Tags for minecraft:block mod id pixelpioneer
+// 1.20.1	2024-06-05T15:04:34.4313428	Tags for minecraft:block mod id pixelpioneer
 3a46d491daa49330568e4c1e31649baa027b394e data/forge/tags/blocks/needs_netherite_tool.json
-5c81b7656261ca9c8d2b2d9874d65f2aeee4a73d data/minecraft/tags/blocks/fences.json
-fd62282376e6716bdc026938a21df857d7103a55 data/minecraft/tags/blocks/fence_gates.json
+bdbb7ea2810aee3c4a9f313f283f9fd18a80cf9e data/minecraft/tags/blocks/fences.json
+330dc8406e744984899fe0e3883c83706ef3ca48 data/minecraft/tags/blocks/fence_gates.json
 23624a0bbe7a21103113b183370bc7341524f717 data/minecraft/tags/blocks/logs_that_burn.json
-27872b3c0613fcbb922cfbc9230f31fff0822f68 data/minecraft/tags/blocks/mineable/pickaxe.json
+3a48176939d27907d08deee7ce5935be43849f3a data/minecraft/tags/blocks/mineable/pickaxe.json
 f33a21dab62ca5586b60f11cf81e9404b0f08ccd data/minecraft/tags/blocks/needs_diamond_tool.json
 65ba2d4f339ac707fe53f6577e38112f47afad9e data/minecraft/tags/blocks/needs_iron_tool.json
 2f98dc768b901847bb399fb36bf5a2b3ef2d201f data/minecraft/tags/blocks/needs_stone_tool.json
 9b2354f27a6b0e18a836bcee411c96c38c256108 data/minecraft/tags/blocks/planks.json
-6dae2719f1b78d047083f3f753508c2c943d646d data/minecraft/tags/blocks/walls.json
+515861af7558164cf1a2c34ad5e5af6db0399d24 data/minecraft/tags/blocks/walls.json
 3cd8925fac61233acac12f7fce58f986a5ed6993 data/pixelpioneer/tags/blocks/metal_detector_valuables.json
 d79cf9d1b5c31e894269ff46c1b92756ff5b145a data/pixelpioneer/tags/blocks/needs_emerald_tool.json
 9b15cd76d1e0314df73bf3edf54c5e8ae125fb61 data/pixelpioneer/tags/blocks/needs_ruby_tool.json
