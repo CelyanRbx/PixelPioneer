@@ -67,6 +67,9 @@
   "block.pixelpioneer.ruby_block": "Bloc de rubis",
   "block.pixelpioneer.raw_ruby_block": "Bloc de rubis brut",
 
+  "block.pixelpioneer.emerald_block": "Bloc d'émeraude",
+  "block.pixelpioneer.raw_emerald_block": "Bloc d'émeraude brut",
+
   "block.pixelpioneer.sapphire_ore": "Minerai de saphir",
   "block.pixelpioneer.deepslate_sapphire_ore": "Minerai de saphir des abîmes",
   "block.pixelpioneer.end_stone_sapphire_ore": "Minerai de saphir de l'end",
@@ -101,6 +104,16 @@
   "block.pixelpioneer.ruby_wall": "Muret en rubis",
   "block.pixelpioneer.ruby_door": "Porte en rubis",
   "block.pixelpioneer.ruby_trapdoor": "Trappe en rubis",
+
+  "block.pixelpioneer.emerald_stairs": "Escalier en émeraude",
+  "block.pixelpioneer.emerald_slab": "Dalle en émeraude",
+  "block.pixelpioneer.emerald_button": "Bouton en émeraude",
+  "block.pixelpioneer.emerald_pressure_plate": "Plaque de pression en émeraude",
+  "block.pixelpioneer.emerald_fence": "Barrière en émeraude",
+  "block.pixelpioneer.emerald_fence_gate": "Portillon en émeraude",
+  "block.pixelpioneer.emerald_wall": "Muret en émeraude",
+  "block.pixelpioneer.emerald_door": "Porte en émeraude",
+  "block.pixelpioneer.emerald_trapdoor": "Trappe en émeraude",
 
   "block.pixelpioneer.catmint": "Cataire",
 
