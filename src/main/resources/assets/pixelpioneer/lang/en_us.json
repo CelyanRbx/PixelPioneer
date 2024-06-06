@@ -105,6 +105,16 @@
   "block.pixelpioneer.ruby_door": "Ruby Door",
   "block.pixelpioneer.ruby_trapdoor": "Ruby Trapdoor",
 
+  "block.pixelpioneer.emerald_stairs": "Emerald Stairs",
+  "block.pixelpioneer.emerald_slab": "Emerald Slab",
+  "block.pixelpioneer.emerald_button": "Emerald Button",
+  "block.pixelpioneer.emerald_pressure_plate": "Emerald Pressure Plate",
+  "block.pixelpioneer.emerald_fence": "Emerald Fence",
+  "block.pixelpioneer.emerald_fence_gate": "Emerald Fence Gate",
+  "block.pixelpioneer.emerald_wall": "Emerald Wall",
+  "block.pixelpioneer.emerald_door": "Emerald Door",
+  "block.pixelpioneer.emerald_trapdoor": "Emerald Trapdoor",
+
   "block.pixelpioneer.catmint": "Catmint",
 
   "block.pixelpioneer.gem_polishing_station": "Gem Polishing Station",
