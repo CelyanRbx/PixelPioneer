@@ -34,9 +34,13 @@
     "pixelpioneer:end_stone_emerald_ore",
     "pixelpioneer:emerald_block",
     "pixelpioneer:raw_emerald_block",
-    "pixelpioneer:emerald_ore",
-    "pixelpioneer:deepslate_emerald_ore",
-    "pixelpioneer:nether_emerald_ore",
-    "pixelpioneer:end_stone_emerald_ore"
+    "pixelpioneer:emerald_door",
+    "pixelpioneer:emerald_trapdoor",
+    "pixelpioneer:emerald_pressure_plate",
+    "pixelpioneer:emerald_stairs",
+    "pixelpioneer:emerald_slab",
+    "pixelpioneer:emerald_button",
+    "pixelpioneer:emerald_fence",
+    "pixelpioneer:emerald_fence_gate"
   ]
 }

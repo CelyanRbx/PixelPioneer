@@ -91,6 +91,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.RUBY_DOOR.get(),
                 block -> createDoorTable(ModBlocks.RUBY_DOOR.get()));
 
+        this.dropSelf(ModBlocks.EMERALD_STAIRS.get());
+        this.dropSelf(ModBlocks.EMERALD_BUTTON.get());
+        this.dropSelf(ModBlocks.EMERALD_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.EMERALD_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.EMERALD_FENCE.get());
+        this.dropSelf(ModBlocks.EMERALD_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.EMERALD_WALL.get());
+
+        this.add(ModBlocks.EMERALD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.EMERALD_SLAB.get()));
+        this.add(ModBlocks.EMERALD_DOOR.get(),
+                block -> createDoorTable(ModBlocks.EMERALD_DOOR.get()));
+
         LootItemCondition.Builder lootitemcondition$builder = hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCropBlock.AGE, 5));
 

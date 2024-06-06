@@ -66,6 +66,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 
+        simpleBlockItem(ModBlocks.EMERALD_DOOR);
+
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
         buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
         wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
@@ -73,6 +75,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.RUBY_FENCE, ModBlocks.RUBY_BLOCK);
         buttonItem(ModBlocks.RUBY_BUTTON, ModBlocks.RUBY_BLOCK);
         wallItem(ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK);
+
+        fenceItem(ModBlocks.EMERALD_FENCE, ModBlocks.EMERALD_BLOCK);
+        buttonItem(ModBlocks.EMERALD_BUTTON, ModBlocks.EMERALD_BLOCK);
+        wallItem(ModBlocks.EMERALD_WALL, ModBlocks.EMERALD_BLOCK);
 
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_STAIRS);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_SLAB);
@@ -84,9 +90,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.RUBY_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.RUBY_FENCE_GATE);
 
+        evenSimplerBlockItem(ModBlocks.EMERALD_STAIRS);
+        evenSimplerBlockItem(ModBlocks.EMERALD_SLAB);
+        evenSimplerBlockItem(ModBlocks.EMERALD_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.EMERALD_FENCE_GATE);
+
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
 
         trapdoorItem(ModBlocks.RUBY_TRAPDOOR);
+
+        trapdoorItem(ModBlocks.EMERALD_TRAPDOOR);
 
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_PICKAXE);

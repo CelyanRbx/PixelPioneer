@@ -27,6 +27,30 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD.get());
                         pOutput.accept(ModItems.RAW_EMERALD.get());
 
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_EMERALD_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+
+                        pOutput.accept(ModBlocks.RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_RUBY_ORE.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_EMERALD_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_EMERALD_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_EMERALD_ORE.get());
+
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
                         pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
                         pOutput.accept(ModItems.SAPPHIRE_AXE.get());
@@ -64,30 +88,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD_LEGGINGS.get());
                         pOutput.accept(ModItems.EMERALD_BOOTS.get());
 
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-
-                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
-                        pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
-
-                        pOutput.accept(ModBlocks.EMERALD_BLOCK.get());
-                        pOutput.accept(ModBlocks.RAW_EMERALD_BLOCK.get());
-
-                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
-                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
-                        pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
-
-                        pOutput.accept(ModBlocks.RUBY_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
-                        pOutput.accept(ModBlocks.NETHER_RUBY_ORE.get());
-                        pOutput.accept(ModBlocks.END_STONE_RUBY_ORE.get());
-
-                        pOutput.accept(ModBlocks.EMERALD_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_EMERALD_ORE.get());
-                        pOutput.accept(ModBlocks.NETHER_EMERALD_ORE.get());
-                        pOutput.accept(ModBlocks.END_STONE_EMERALD_ORE.get());
-
                         pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
@@ -111,6 +111,18 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.RUBY_DOOR.get());
                         pOutput.accept(ModBlocks.RUBY_TRAPDOOR.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_STAIRS.get());
+                        pOutput.accept(ModBlocks.EMERALD_SLAB.get());
+                        pOutput.accept(ModBlocks.EMERALD_BUTTON.get());
+                        pOutput.accept(ModBlocks.EMERALD_PRESSURE_PLATE.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_FENCE.get());
+                        pOutput.accept(ModBlocks.EMERALD_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.EMERALD_WALL.get());
+
+                        pOutput.accept(ModBlocks.EMERALD_DOOR.get());
+                        pOutput.accept(ModBlocks.EMERALD_TRAPDOOR.get());
 
                         pOutput.accept(ModBlocks.PINE_LOG.get());
                         pOutput.accept(ModBlocks.PINE_WOOD.get());

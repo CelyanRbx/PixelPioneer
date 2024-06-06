@@ -77,6 +77,19 @@ public class ModBlockStateProvider extends BlockStateProvider {
         makeStrawberryCrop((CropBlock) ModBlocks.STRAWBERRY_CROP.get(), "strawberry_stage", "strawberry_stage");
         makeCornCrop(((CropBlock) ModBlocks.CORN_CROP.get()), "corn_stage_", "corn_stage_");
 
+        stairsBlock(((StairBlock) ModBlocks.EMERALD_STAIRS.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+        slabBlock(((SlabBlock) ModBlocks.EMERALD_SLAB.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+
+        buttonBlock(((ButtonBlock) ModBlocks.EMERALD_BUTTON.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.EMERALD_PRESSURE_PLATE.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+
+        fenceBlock(((FenceBlock) ModBlocks.EMERALD_FENCE.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.EMERALD_FENCE_GATE.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+        wallBlock(((WallBlock) ModBlocks.EMERALD_WALL.get()), blockTexture(ModBlocks.EMERALD_BLOCK.get()));
+
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.EMERALD_DOOR.get()), modLoc("block/emerald_door_bottom"), modLoc("block/emerald_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.EMERALD_TRAPDOOR.get()), modLoc("block/emerald_trapdoor"), true, "cutout");
+
         simpleBlockWithItem(ModBlocks.CATMINT.get(), models().cross(blockTexture(ModBlocks.CATMINT.get()).getPath(),
                 blockTexture(ModBlocks.CATMINT.get())).renderType("cutout"));
         simpleBlockWithItem(ModBlocks.POTTED_CATMINT.get(), models().singleTexture("potted_catmint", new ResourceLocation("flower_pot_cross"), "plant",

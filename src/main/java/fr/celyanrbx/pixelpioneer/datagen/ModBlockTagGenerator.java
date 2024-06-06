@@ -60,10 +60,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.END_STONE_EMERALD_ORE.get(),
                         ModBlocks.EMERALD_BLOCK.get(),
                         ModBlocks.RAW_EMERALD_BLOCK.get(),
-                        ModBlocks.EMERALD_ORE.get(),
-                        ModBlocks.DEEPSLATE_EMERALD_ORE.get(),
-                        ModBlocks.NETHER_EMERALD_ORE.get(),
-                        ModBlocks.END_STONE_EMERALD_ORE.get());
+                        ModBlocks.EMERALD_DOOR.get(),
+                        ModBlocks.EMERALD_TRAPDOOR.get(),
+                        ModBlocks.EMERALD_PRESSURE_PLATE.get(),
+                        ModBlocks.EMERALD_STAIRS.get(),
+                        ModBlocks.EMERALD_SLAB.get(),
+                        ModBlocks.EMERALD_BUTTON.get(),
+                        ModBlocks.EMERALD_FENCE.get(),
+                        ModBlocks.EMERALD_FENCE_GATE.get());
 
 
 
@@ -108,6 +112,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_FENCE_GATE.get());
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.RUBY_WALL.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.EMERALD_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.EMERALD_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.EMERALD_WALL.get());
 
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.PINE_LOG.get())

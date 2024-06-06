@@ -33,6 +33,11 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE_KEY = registerKey("nether_ruby_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_RUBY_ORE_KEY = registerKey("end_ruby_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> RAW_RUBY_BLOCK_KEY = registerKey("raw_ruby_block");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_EMERALD_ORE_KEY = registerKey("emerald_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_EMERALD_ORE_KEY = registerKey("nether_emerald_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> END_EMERALD_ORE_KEY = registerKey("end_emerald_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> RAW_EMERALD_BLOCK_KEY = registerKey("raw_emerald_block");
+
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> PINE_KEY = registerKey("pine");
 
@@ -48,8 +53,12 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState()));
 
         List<OreConfiguration.TargetBlockState> overworldRubyOres = List.of(OreConfiguration.target(stoneReplaceable,
-                ModBlocks.RUBY_ORE.get().defaultBlockState()),
+                        ModBlocks.RUBY_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldEmeraldOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        ModBlocks.EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_EMERALD_ORE.get().defaultBlockState()));
 
         register(context, OVERWORLD_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSapphireOres, 9));
         register(context, NETHER_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
@@ -66,6 +75,14 @@ public class ModConfiguredFeatures {
                 ModBlocks.END_STONE_RUBY_ORE.get().defaultBlockState(), 9));
         register(context, RAW_RUBY_BLOCK_KEY, Feature.ORE, new OreConfiguration(rawReplaceables,
                 ModBlocks.RAW_RUBY_BLOCK.get().defaultBlockState(), 9));
+
+        register(context, OVERWORLD_EMERALD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldEmeraldOres, 9));
+        register(context, NETHER_EMERALD_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
+                ModBlocks.NETHER_EMERALD_ORE.get().defaultBlockState(), 9));
+        register(context, END_EMERALD_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
+                ModBlocks.END_STONE_EMERALD_ORE.get().defaultBlockState(), 9));
+        register(context, RAW_EMERALD_BLOCK_KEY, Feature.ORE, new OreConfiguration(rawReplaceables,
+                ModBlocks.RAW_EMERALD_BLOCK.get().defaultBlockState(), 9));
 
         register(context, PINE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.PINE_LOG.get()),
