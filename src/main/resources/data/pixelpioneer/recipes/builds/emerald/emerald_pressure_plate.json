@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "pixelpioneer",
   "key": {
-    "r": {
+    "b": {
       "item": "pixelpioneer:emerald"
     }
   },
   "pattern": [
-    "   ",
-    " r ",
-    "r  "
+    "bb"
   ],
   "result": {
-    "item": "pixelpioneer:emerald_shears"
+    "item": "pixelpioneer:emerald_pressure_plate"
   },
   "show_notification": true
 }

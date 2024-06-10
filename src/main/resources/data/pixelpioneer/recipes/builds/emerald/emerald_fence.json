@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "r": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
       "item": "pixelpioneer:emerald"
     }
   },
   "pattern": [
-    "   ",
-    " r ",
-    "r  "
+    "W#W",
+    "W#W"
   ],
   "result": {
-    "item": "pixelpioneer:emerald_shears"
+    "count": 3,
+    "item": "pixelpioneer:emerald_fence"
   },
   "show_notification": true
 }

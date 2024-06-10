@@ -1,18 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "redstone",
   "key": {
-    "r": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
       "item": "pixelpioneer:emerald"
     }
   },
   "pattern": [
-    "   ",
-    " r ",
-    "r  "
+    "#W#",
+    "#W#"
   ],
   "result": {
-    "item": "pixelpioneer:emerald_shears"
+    "item": "pixelpioneer:emerald_fence_gate"
   },
   "show_notification": true
 }

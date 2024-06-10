@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "pixelpioneer",
   "key": {
-    "r": {
+    "b": {
       "item": "pixelpioneer:emerald"
     }
   },
   "pattern": [
-    "   ",
-    " r ",
-    "r  "
+    "bb",
+    "bb"
   ],
   "result": {
-    "item": "pixelpioneer:emerald_shears"
+    "count": 2,
+    "item": "pixelpioneer:emerald_trapdoor"
   },
   "show_notification": true
 }

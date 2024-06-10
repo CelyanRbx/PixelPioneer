@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "r": {
-      "item": "pixelpioneer:emerald"
+    "e": {
+      "item": "pixelpioneer:raw_emerald"
     }
   },
   "pattern": [
-    "   ",
-    " r ",
-    "r  "
+    "eee",
+    "eee",
+    "eee"
   ],
   "result": {
-    "item": "pixelpioneer:emerald_shears"
+    "item": "pixelpioneer:raw_emerald_block"
   },
   "show_notification": true
 }
